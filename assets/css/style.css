@@ -1,11 +1,15 @@
+/*Import Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
+/*Reset default styles */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/*Body styles */
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -13,7 +17,7 @@ body {
     color: #333
 }
 
-/* heading and logo styling */
+/* Heading styles */
 
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -21,13 +25,47 @@ h1 {
     letter-spacing: 3px;
     color: #333;
 }
-  
-  #logo {
+
+/* Logo Styles */
+#logo {
     float: left;
     font-size: 260%;
     text-transform: uppercase;
-    margin-left: 30%;
+    margin-left: 20px;
+    line-height: 70px;
+}
+
+/* Navigation links */
+
+nav {
+    font-size: 110%;
+    letter-spacing: 3px;
+    line-height: 70px;
+    float: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid #333;
   }
 
-  
-  
+  .active {
+    border-bottom: 2px solid #333;
+  }
