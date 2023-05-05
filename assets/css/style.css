@@ -165,68 +165,96 @@ nav a:hover {
     height: 300px;
     margin: 20px;
     perspective: 1000px;
-  }
-  
-  .card-inner {
+}
+
+.card-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: rgba(122, 71, 81, 0.713);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.card-inner {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-  }
-  
-  .card:hover .card-inner {
+}
+
+.card:hover .card-inner {
     transform: rotateY(180deg);
-  }
-  
-  .card-front,
-  .card-back {
+}
+
+.card-front,
+.card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-  }
-  
-  .card-front {
+}
+
+.card-front {
     transform: rotateY(0deg);
-  }
-  
-  .card-back {
+}
+
+.card-back {
     transform: rotateY(180deg);
-  }
-  
-  .card-front img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .card-back {
-    background-color: #b3d9ff;
-    color: #fff;
+    background-color: rgba(95, 125, 131, 0.713);
+    color: #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding: 20px;
     box-sizing: border-box;
-  }
-  
-  .card-back h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .card-back ul {
-    list-style: none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.card-title {
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-list {
+    list-style: disc;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.card-back ul {
+    list-style: disc;
     padding: 0;
     margin: 0;
     text-align: left;
-  }
-  
-  .card-back li {
+}
+
+.card-back li {
     margin-bottom: 5px;
-  }
-  
+}
