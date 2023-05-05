@@ -158,7 +158,13 @@ nav a:hover {
     background-color: #618d97;
 }
 
-/* Foot massage rotating card styling  */
+/* Rotating cards styling and positioning in the page */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
 
 .card {
     width: 300px;
