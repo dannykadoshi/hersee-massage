@@ -105,17 +105,20 @@ nav a:hover {
     }
   }
 
+  /* Intro text and book appointment buttom styling  */
+
 .intro-text {
     background-color: rgba(95, 125, 131, 0.713);
     color: #fff;
-    padding: 36px;
-    border-radius: 70px;
+    padding: 30px 20px;
+    border-radius: 10px;
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 700;
-    letter-spacing: 2px;
-    max-width: 800px;
+    letter-spacing: 3px;
+    width: 400px;
+    height: 200px;
     margin: auto;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
@@ -153,4 +156,6 @@ nav a:hover {
 .btn:hover {
     background-color: #618d97;
 }
+
+/* Intro text and book appointment buttom styling  */
 
