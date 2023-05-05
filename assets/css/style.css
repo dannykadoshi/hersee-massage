@@ -42,38 +42,39 @@ nav {
     letter-spacing: 3px;
     line-height: 70px;
     float: right;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
-  }
-  
-  nav li {
+}
+
+nav li {
     float: right;
     list-style-type: none;
     margin-right: 25px;
-  }
-  
-  nav a {
+}
+
+nav a {
     text-decoration: none;
     color: #333;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     border-bottom: 2px solid #333;
-  }
+}
 
-  .active {
+.active {
     border-bottom: 2px solid #333;
-  }
+}
 
-  /* Intro section and image styling */
+/* Intro section and image styling */
 
-  .intro-section {
-    background-image: url('../images/relaxing.webp');
+.intro-section {
+    animation: zoomIn 10s ease-in-out infinite;
+    background-image: url('../images/sholder-massage.webp');
     position: relative;
     height: 600px;
     width: 100%;
@@ -83,46 +84,73 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: 100%;
+
+    /* Image animation on loading page */
+    animation-name: zoom-in;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* Keyframe to loading page */
+
+@keyframes zoom-in {
+    0% {
+      background-size: 100%;
+    }
+    100% {
+      background-size: 120%;
+    }
   }
-  
-  .intro-text {
-    background-color: rgba(255, 200, 0, 0.633);
+
+.intro-text {
+    background-color: rgba(95, 125, 131, 0.713);
     color: #fff;
-    padding: 20px;
-    border-radius: 15px;
+    padding: 36px;
+    border-radius: 70px;
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
-  }
-  
-  .intro-text h1 {
-    font-size: 5rem;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.intro-text h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
     margin-bottom: 1rem;
-  }
-  
-  .intro-text p {
+    letter-spacing: 2px;
+}
+
+.intro-text p {
+    text-transform: capitalize;
     margin-top: 20px;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 1px;
-  }
-  
-  .btn {
+    line-height: 1.5;
+}
+
+.btn {
     display: inline-block;
-    background-color: #f86734;
+    background-color: #7a4751;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 40px;
+    height: auto;
     border-radius: 10px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     transition: background-color 0.3s ease-in-out;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
     margin-top: 10px;
-  }
-  
-  .btn:hover {
-    background-color: #f38466;
-  }
-  
+}
+
+.btn:hover {
+    background-color: #618d97;
+}
+
