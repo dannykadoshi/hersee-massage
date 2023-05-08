@@ -264,3 +264,62 @@ nav a:hover {
 .card-back li {
     margin-bottom: 5px;
 }
+
+/* Footer and social links styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .social-icons a i {
+    font-size: 1.5rem;
+  }
+  
+  .social-icons li {
+    margin: 0 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #6c757d;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    color: #ffffff;
+    background-color: #6c757d;
+  }
+  
+  .social-connect {
+    margin-bottom: 20px;
+  }
+  
+  iframe {
+    border-radius: 10px;
+  }
+
+  p.address {
+    margin-bottom: 20px;
+  }
+
