@@ -31,28 +31,26 @@
         </nav>
     </header>
     <!--Section containing background image and Contact me form-->
-    <section>
-        <div class="container">
-            <h1>Contact Us</h1>
-            <form>
-                <label for="first-name">First Name:</label>
+    <section class="contact-form">
+        <form action="https://formspree.io/f/mknayaby" method="post" enctype="text/plain" name="EmailForm" class="contact-section">
+                <h2>Contact me for more information <i class="fas fa-paper-plane"></i></h2>
+                <label for="first-name" class="required-label">First Name:</label>
                 <input type="text" id="first-name" name="first-name" required>
 
-                <label for="last-name">Last Name:</label>
+                <label for="last-name" class="required-label">Last Name:</label>
                 <input type="text" id="last-name" name="last-name" required>
 
-                <label for="phone">Phone Number:</label>
+                <label for="phone" class="required-label">Phone Number:</label>
                 <input type="tel" id="phone" name="phone" required>
 
-                <label for="email">Email:</label>
+                <label for="email" class="required-label">Email:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="message">Message:</label>
+                <label for="message" class="required-label">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
 
                 <input type="submit" value="Send">
-            </form>
-        </div>
+        </form>
     </section>
     <!--Footer and social media contact-->
     <footer>
