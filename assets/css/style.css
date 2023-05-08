@@ -155,7 +155,7 @@ nav a:hover {
 }
 
 .btn:hover {
-    background-color: #618d97;
+    background-color: #c0392b;
 }
 
 /* Rotating cards styling and positioning in the page */
@@ -277,6 +277,11 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .connnect-with-me {
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
   
   .social-icons {
     list-style: none;
@@ -354,6 +359,8 @@ footer {
 .contact-section h2{
     font-size: 40px;
     margin-bottom: 30px;
+    font-weight: bold;
+    display: block;
 }
 
 .contact-section form {
@@ -384,7 +391,7 @@ footer {
 }
 
 .contact-section input[type="submit"] {
-    background-color: #e74c3c;
+    background-color: #7a4751;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -392,6 +399,7 @@ footer {
     cursor: pointer;
     font-size: 1.2rem;
     transition: all 0.3s ease;
+    text-transform: uppercase;
 }
 
 .contact-section input[type="submit"]:hover {
