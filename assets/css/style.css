@@ -164,7 +164,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-  }
+}
 
 .card {
     width: 300px;
@@ -271,36 +271,36 @@ footer {
     padding: 40px 0;
     font-size: 16px;
     text-align: center;
-  }
+}
 
-  .container {
+.container {
     max-width: 1200px;
     margin: 0 auto;
-  }
+}
 
-  .connnect-with-me {
+.connnect-with-me {
     text-transform: uppercase;
     font-weight: bolder;
-  }
-  
-  .social-icons {
+}
+
+.social-icons {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
     margin-top: 20px;
-  }
+}
 
-  .social-icons a i {
+.social-icons a i {
     font-size: 1.5rem;
-  }
-  
-  .social-icons li {
+}
+
+.social-icons li {
     margin: 0 10px;
-  }
-  
-  .social-icons a {
+}
+
+.social-icons a {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -309,37 +309,37 @@ footer {
     color: #6c757d;
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
-  }
-  
-  .social-icons a:hover {
+}
+
+.social-icons a:hover {
     color: #ffffff;
     background-color: #6c757d;
-  }
-  
-  .social-connect {
+}
+
+.social-connect {
     margin-bottom: 20px;
-  }
-  
-  iframe {
+}
+
+iframe {
     border-radius: 10px;
-  }
+}
 
-  p.address {
+p.address {
     margin-bottom: 20px;
-  }
+}
 
-  /* Styling for contact.html */
+/* Styling for contact.html */
 
-  /* background image and form */
-  .contact-form {
+/* background image and form */
+.contact-form {
     clear: left;
     background: url('../images/back-flowers.webp') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 900px;
-  }
+}
 
-  .contact-section {
+.contact-section {
     position: relative;
     top: 15%;
     max-width: 700px;
@@ -356,7 +356,7 @@ footer {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-.contact-section h2{
+.contact-section h2 {
     font-size: 40px;
     margin-bottom: 30px;
     font-weight: bold;
@@ -386,7 +386,7 @@ footer {
     margin-bottom: 20px;
     font-size: 1rem;
     border: none;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
 }
 
@@ -411,4 +411,78 @@ footer {
     color: red;
     display: inline-block;
     margin-right: 5px;
-  }
+}
+
+/* Styling for prices.html */
+
+/* Price List heading */
+
+.tittle-page {
+    background: rgba(95, 125, 131, 0.713);
+    padding: 10px 0;
+    position: relative;
+    top: 70px;
+}
+
+.current-price-list {
+    position: relative;
+}
+
+.current-price-list h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Pricing table styling */
+table {
+    border-collapse: collapse;
+    position: relative;
+    right: 20px;
+    width: 100%;
+    display: contents;
+}
+
+th {
+    background-color: rgba(95, 125, 131, 0.713);
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.price-list th:nth-child(2),
+.price-list th:nth-child(3) {
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(95, 125, 131, 0.713);
+    color: #fff;
+}
+
+.price-list tbody td:nth-child(2),
+.price-list tbody td:nth-child(3) {
+    text-align: center;
+}
+
+.prices-table {
+    padding: 10px;
+    text-transform: uppercase;
+    border: 5px solid rgba(95, 125, 131, 0.713);
+    margin: 120px auto 30px auto;
+    width: 50%;
+    max-width: fit-content;
+}
+
+.price-list thead th {
+    font-weight: 30px;
+}
