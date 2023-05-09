@@ -499,6 +499,54 @@ tr:nth-child(odd) {
     font-weight: 30px;
 }
 
+/* Discount Section Styling */
+.special-discounts {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .special-discounts h2 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+  
+  .discount-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  
+  .discount-card {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.462);
+  }
+  
+  .discount-card i {
+    font-size: 30px;
+    color: rgba(95, 125, 131, 0.713);
+    margin-bottom: 20px;
+  }
+  
+  .discount-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .discount-card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
 /* About.html styling */
 
 .about-section {
