@@ -509,7 +509,7 @@ main {
 }
 
 .card {
-    width: 200px;
+    width: 250px;
     height: 300px;
     margin: 20px;
     perspective: 1000px;
@@ -594,6 +594,7 @@ main {
     list-style: disc;
     text-align: left;
     margin-top: 60px;
+    font-size: 14px;
 }
 
 .card-back ul {
@@ -605,7 +606,18 @@ main {
 
 .card-back li {
     margin-bottom: 5px;
+    color: #fff;
 }
+/* Style for list cards list bullet points */
+.arrow-list {
+    list-style-type: none;
+    position: relative;
+  }
+  .arrow-list:before {
+    content: "\2192";
+    position: absolute;
+    left: -1.3em;
+  }
 
 /* Style for the headings inside each individual div */
 main div h2 {
@@ -629,4 +641,3 @@ main div p {
     margin-bottom: 20px;
     text-align: justify;
 }
-
