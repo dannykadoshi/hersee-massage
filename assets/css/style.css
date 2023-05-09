@@ -607,3 +607,52 @@ tr:nth-child(odd) {
     margin-bottom: 10px;
   }
   
+  /* treatments.html styling */
+
+/* Style for the main section */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    padding-top: 100px;
+}
+
+/* Style for each individual div inside the main section */
+main div {
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 900px;
+    width: 100%;
+    margin: 20px;
+}
+
+/* Style for the headings inside each individual div */
+main div h2 {
+    color: #3a3a3a;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+main div h3 {
+    color: #3a3a3a;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Style for the text inside each individual div */
+main div p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Style for the font awesome icons inside each individual div */
+main div i {
+    color: rgba(95, 125, 131, 0.713);
+    font-size: 32px;
+}
