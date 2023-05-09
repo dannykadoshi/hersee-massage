@@ -477,8 +477,8 @@ td {
 }
 
 tr:nth-child(odd) {
-    background-color: rgba(95, 125, 131, 0.713);
-    color: #fff;
+    background-color: rgba(95, 125, 131, 0.475);
+    color: #000;
 }
 
 .price-list tbody td:nth-child(2),
@@ -487,7 +487,7 @@ tr:nth-child(odd) {
 }
 
 .prices-table {
-    padding: 5px;
+    padding: 10px;
     text-transform: uppercase;
     border: 2px solid rgba(95, 125, 131, 0.713);
     margin: 120px auto 30px auto;
