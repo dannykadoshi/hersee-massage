@@ -158,125 +158,6 @@ nav a:hover {
     background-color: #c0392b;
 }
 
-/* Rotating cards styling and positioning in the page */
-
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.card {
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    perspective: 1000px;
-}
-
-.card-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: #fff;
-    text-shadow: 1px 1px #000;
-    padding: 15px 20px;
-    border-radius: 10px;
-    background-color: rgba(122, 71, 81, 0.713);
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-}
-
-.card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-}
-
-.card:hover .card-inner {
-    transform: rotateY(180deg);
-}
-
-.card-front,
-.card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-}
-
-.card-front {
-    transform: rotateY(0deg);
-    background-color: rgba(95, 125, 131, 0.713);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Open Sans", sans-serif;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    letter-spacing: 1px;
-    line-height: 1.5;
-}
-
-.card-back {
-    transform: rotateY(180deg);
-    background-color: rgba(95, 125, 131, 0.713);
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Open Sans", sans-serif;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    letter-spacing: 1px;
-    line-height: 1.5;
-}
-
-.card-title {
-    font-weight: bold;
-    color: black;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 1;
-}
-
-.card-front img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.card-list {
-    list-style: disc;
-    text-align: left;
-    margin-top: 60px;
-}
-
-.card-back ul {
-    list-style: disc;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-}
-
-.card-back li {
-    margin-bottom: 5px;
-}
-
 /* Footer and social links styling */
 footer {
     background-color: #f8f9fa;
@@ -504,48 +385,48 @@ tr:nth-child(odd) {
     background-color: #fff;
     padding: 50px;
     text-align: center;
-  }
+}
 
-  .special-discounts h2 {
+.special-discounts h2 {
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-  
-  .discount-container {
+
+.discount-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
     margin-top: 50px;
-  }
-  
-  .discount-card {
+}
+
+.discount-card {
     width: 300px;
     background-color: #fff;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.462);
-  }
-  
-  .discount-card i {
+}
+
+.discount-card i {
     font-size: 30px;
     color: rgba(95, 125, 131, 0.713);
     margin-bottom: 20px;
-  }
-  
-  .discount-card h3 {
+}
+
+.discount-card h3 {
     font-size: 24px;
     margin-bottom: 10px;
     text-transform: uppercase;
-  }
-  
-  .discount-card p {
+}
+
+.discount-card p {
     font-size: 16px;
     line-height: 1.5;
-  }
+}
 
 /* About.html styling */
 
@@ -557,16 +438,16 @@ tr:nth-child(odd) {
     align-items: center;
     padding-top: 120px;
     margin: 50px 0;
-  }
+}
 
-  .about-photo {
+.about-photo {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .about-photo img {
+}
+
+.about-photo img {
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -575,39 +456,39 @@ tr:nth-child(odd) {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-right: 30px;
     padding: 5px;
-  }
-  
-  .about-text {
+}
+
+.about-text {
     max-width: 70%;
     flex: 2;
-    padding:0 30px;
+    padding: 0 30px;
     text-align: justify;
-  }
-  
-  .about-text h2 {
+}
+
+.about-text h2 {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
-  }
-  
-  .about-text p {
+}
+
+.about-text p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 30px;
     text-align: justify;
-  }
-  
-  .about-text ul {
+}
+
+.about-text ul {
     list-style: none;
     padding-left: 0;
-  }
-  
-  .about-text li {
+}
+
+.about-text li {
     font-size: 16px;
     margin-bottom: 10px;
-  }
-  
-  /* treatments.html styling */
+}
+
+/* treatments.html styling */
 
 /* Style for the main section */
 main {
@@ -619,13 +500,111 @@ main {
     padding-top: 100px;
 }
 
-/* Style for each individual div inside the main section */
-main div {
-    border-radius: 10px;
-    padding: 20px;
-    max-width: 900px;
-    width: 100%;
+/* Rotating cards styling and positioning in the page */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
     margin: 20px;
+    perspective: 1000px;
+}
+
+.card-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(95, 125, 131, 0.713);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    transform: rotateY(0deg);
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    background-color: rgba(95, 125, 131, 0.713);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.card-title {
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-list {
+    list-style: disc;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.card-back ul {
+    list-style: disc;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.card-back li {
+    margin-bottom: 5px;
 }
 
 /* Style for the headings inside each individual div */
@@ -651,8 +630,3 @@ main div p {
     text-align: justify;
 }
 
-/* Style for the font awesome icons inside each individual div */
-main div i {
-    color: rgba(95, 125, 131, 0.713);
-    font-size: 32px;
-}
