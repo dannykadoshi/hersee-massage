@@ -227,10 +227,10 @@ p.address {
 /* background image and form */
 .contact-form {
     clear: left;
-    background: url('../images/back-flowers.webp') no-repeat center center;
+    background: url('../images/back-massage.webp') no-repeat center center;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 800px;
 }
 
 .contact-section {
@@ -283,6 +283,7 @@ p.address {
     border: none;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
+    text-transform: uppercase;
 }
 
 .contact-section input[type="submit"] {
