@@ -34,6 +34,7 @@ h1 {
     text-transform: uppercase;
     margin-left: 20px;
     line-height: 70px;
+    color:rgba(95, 125, 131, 0.973);
 }
 
 /* Navigation links */
@@ -579,11 +580,13 @@ tr:nth-child(odd) {
 }
 
 .special-discounts h2 {
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 30px;
     font-family: Oswald, sans-serif;
+    color:rgba(95, 125, 131, 0.973);
+    letter-spacing: 2px;
 }
 
 .discount-container {
@@ -614,6 +617,8 @@ tr:nth-child(odd) {
     margin-bottom: 10px;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
+    color:rgba(95, 125, 131, 0.973);
+    letter-spacing: 2px;
 }
 
 .discount-card p {
@@ -663,6 +668,9 @@ tr:nth-child(odd) {
     font-weight: bold;
     margin-bottom: 20px;
     font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    color:rgba(95, 125, 131, 0.973);
+    letter-spacing: 2px;
 }
 
 .about-text p {
@@ -830,10 +838,12 @@ main {
 /* Style for the headings inside each individual div */
 main div h2 {
     color: #3a3a3a;
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 10px;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
+    color:rgba(95, 125, 131, 0.973);
+    letter-spacing: 2px;
 }
 
 main div h3 {
