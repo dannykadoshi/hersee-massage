@@ -9,6 +9,7 @@
     border: none;
 }
 
+/* Styling for index.html */
 /*Body styles */
 body {
     font-family: 'Lato', sans-serif;
@@ -159,6 +160,59 @@ nav a:hover {
     background-color: #c0392b;
 }
 
+/* Business Introduction styling index.html */
+.therapy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(95, 125, 131, 0.047);
+    padding: 60px 0;
+}
+
+.therapy-image {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.therapy-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.therapy-text {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.therapy-text h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: rgba(95, 125, 131, 0.713);
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.therapy-text h2 span {
+    color: #7a4751;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.therapy-text p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: justify;
+    padding-right: 25px;
+}
+
+
 /* Footer and social links styling */
 footer {
     background-color: rgba(95, 125, 131, 0.205);
@@ -189,20 +243,20 @@ footer {
 footer .row {
     display: flex;
     justify-content: space-between;
-  }
-  
-  footer .col-md-6 {
+}
+
+footer .col-md-6 {
     align-self: flex-start;
     align-items: center;
     display: flex;
     margin-top: 25px;
-  }
-  
-  footer .footer-nav-menu {
+}
+
+footer .footer-nav-menu {
     align-self: flex-end;
     font-size: 12px;
     text-transform: capitalize;
-  }
+}
 
 /* Connect with me - footer*/
 .connnect-with-me {
@@ -314,7 +368,7 @@ iframe {
 /* background image and form */
 .contact-form {
     clear: left;
-    background: url('../images/back-massage.webp') no-repeat center center;
+    background: url('../images/back_relaxing.webp') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 800px;
@@ -323,7 +377,7 @@ iframe {
 .contact-section {
     position: relative;
     top: 15%;
-    max-width: 700px;
+    max-width: 600px;
     text-align: center;
     color: white;
     background-color: rgba(95, 125, 131, 0.713);
