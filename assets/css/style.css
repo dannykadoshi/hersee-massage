@@ -161,8 +161,8 @@ nav a:hover {
 
 /* Footer and social links styling */
 footer {
-    background-color: #f8f9fa;
-    padding: 40px 0;
+    background-color: rgba(95, 125, 131, 0.205);
+    padding: 30px 0;
     font-size: 16px;
     text-align: center;
 }
@@ -172,11 +172,54 @@ footer {
     margin: 0 auto;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+/* All rights reserved and footer nav bar */
+footer .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .col-md-6 {
+    align-self: flex-start;
+    align-items: center;
+    display: flex;
+    margin-top: 25px;
+  }
+  
+  footer .footer-nav-menu {
+    align-self: flex-end;
+    font-size: 12px;
+    text-transform: capitalize;
+  }
+
+/* Connect with me - footer*/
 .connnect-with-me {
     text-transform: uppercase;
     font-weight: bolder;
+    margin-bottom: 40px;
 }
 
+.connect-with-me h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Social Icons - footer */
 .social-icons {
     list-style: none;
     padding: 0;
@@ -191,7 +234,12 @@ footer {
 }
 
 .social-icons li {
-    margin: 0 10px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
 }
 
 .social-icons a {
@@ -218,8 +266,47 @@ iframe {
     border-radius: 10px;
 }
 
-p.address {
+/* Opening times */
+.opening-times h3 {
+    font-weight: bold;
+    font-size: 20px;
     margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.opening-times ul {
+    list-style: none;
+    padding: 0;
+}
+
+.opening-times ul li {
+    line-height: 0.8;
+}
+
+.opening-times li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Address */
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.address h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.address p {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* Styling for contact.html */
@@ -626,17 +713,19 @@ main {
     margin-bottom: 5px;
     color: #000;
 }
+
 /* Style for list cards list bullet points */
 .arrow-list {
     list-style-type: none;
     position: relative;
     padding-left: 30px;
-  }
-  .arrow-list:before {
+}
+
+.arrow-list:before {
     content: "\25BA";
     position: absolute;
     left: -0.2em;
-  }
+}
 
 /* Style for the headings inside each individual div */
 main div h2 {
