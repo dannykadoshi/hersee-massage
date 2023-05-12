@@ -260,6 +260,82 @@ nav a:hover {
     padding-top: 20px;
 }
 
+/* Services section with links to treatments.html */
+.services-main {
+    flex-wrap: wrap;
+}
+
+.services-area {
+    background-color: #E4F0F1;
+    padding: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    width: 310px;
+    height: 350px;
+    box-sizing: border-box;
+}
+
+.services-area:nth-child(1) {
+    background-color: #17353A;
+}
+
+.services-area:nth-child(2) {
+    background-color: #2F4C51;
+}
+
+.services-area:nth-child(3) {
+    background-color: #46646A;
+}
+
+.services-area:nth-child(4) {
+    background-color: #5F7D83;
+}
+
+.services-area:nth-child(5) {
+    background-color: #95B0B5;
+}
+
+
+.services-wrapper-text h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.services-wrapper-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.services-buttom {
+    margin-top: 20px;
+}
+
+.learn-more-buttom {
+    display: inline-block;
+    background-color: #7a4751;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.learn-more-buttom:hover {
+    background-color: #c0392b;
+}
+
+
 /* Footer and social links styling */
 footer {
     background-color: rgba(95, 125, 131, 0.205);
