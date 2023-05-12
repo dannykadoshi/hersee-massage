@@ -34,7 +34,7 @@ h1 {
     text-transform: uppercase;
     margin-left: 20px;
     line-height: 70px;
-    color: rgba(95, 125, 131, 0.973);
+    color: #46646A;
 }
 
 /* Navigation links */
@@ -190,7 +190,7 @@ nav a:hover {
 .therapy-text h2 {
     font-size: 40px;
     font-weight: bold;
-    color: rgba(95, 125, 131, 0.713);
+    color: #46646A;
     margin-bottom: 20px;
     text-align: center;
     font-family: 'Oswald', sans-serif;
@@ -585,7 +585,7 @@ tr:nth-child(odd) {
     text-transform: uppercase;
     margin-bottom: 30px;
     font-family: Oswald, sans-serif;
-    color: rgba(95, 125, 131, 0.973);
+    color: #46646A;
     letter-spacing: 2px;
 }
 
@@ -617,7 +617,7 @@ tr:nth-child(odd) {
     margin-bottom: 10px;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
-    color: rgba(95, 125, 131, 0.973);
+    color: #46646A;
     letter-spacing: 2px;
 }
 
@@ -669,7 +669,7 @@ tr:nth-child(odd) {
     margin-bottom: 20px;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    color: rgba(95, 125, 131, 0.973);
+    color: #46646A;
     letter-spacing: 2px;
 }
 
@@ -733,7 +733,7 @@ main {
     color: #fff;
     padding-top: 20px;
     border-radius: 10px;
-    background-color: rgb(95, 125, 131);
+    background-color: #46646A;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -768,6 +768,7 @@ main {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #46646A;
 }
 
 .card-front {
@@ -824,7 +825,7 @@ main div h2 {
     margin-bottom: 10px;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
-    color: rgba(95, 125, 131, 0.973);
+    color: #46646A;
     letter-spacing: 2px;
 }
 
