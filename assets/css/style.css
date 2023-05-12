@@ -34,7 +34,7 @@ h1 {
     text-transform: uppercase;
     margin-left: 20px;
     line-height: 70px;
-    color:rgba(95, 125, 131, 0.973);
+    color: rgba(95, 125, 131, 0.973);
 }
 
 /* Navigation links */
@@ -585,7 +585,7 @@ tr:nth-child(odd) {
     text-transform: uppercase;
     margin-bottom: 30px;
     font-family: Oswald, sans-serif;
-    color:rgba(95, 125, 131, 0.973);
+    color: rgba(95, 125, 131, 0.973);
     letter-spacing: 2px;
 }
 
@@ -617,7 +617,7 @@ tr:nth-child(odd) {
     margin-bottom: 10px;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
-    color:rgba(95, 125, 131, 0.973);
+    color: rgba(95, 125, 131, 0.973);
     letter-spacing: 2px;
 }
 
@@ -669,7 +669,7 @@ tr:nth-child(odd) {
     margin-bottom: 20px;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    color:rgba(95, 125, 131, 0.973);
+    color: rgba(95, 125, 131, 0.973);
     letter-spacing: 2px;
 }
 
@@ -716,7 +716,7 @@ main {
     height: 350px;
     margin: 20px;
     perspective: 1000px;
-    border: 1px solid rgb(95, 125, 131);
+    border: 0px solid rgba(95, 125, 131, 0.433);
     border-radius: 11px;
 }
 
@@ -726,17 +726,21 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
+    text-align: center;
     font-weight: bold;
     font-size: 15px;
     letter-spacing: 2px;
     color: #fff;
-    text-shadow: 1px 1px #000;
-    padding: 10px;
+    padding-top: 20px;
     border-radius: 10px;
     background-color: rgb(95, 125, 131);
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
+    font-size: 15px;
     z-index: 10;
+    width: 190px;
+    height: 60px;
+    box-sizing: border-box;
 }
 
 .card-inner {
@@ -803,36 +807,14 @@ main {
     opacity: 0.6;
 }
 
-.card-list {
-    list-style: disc;
-    text-align: left;
-    margin-top: 60px;
-    font-size: 14px;
-}
-
-.card-back ul {
-    list-style: disc;
+.card-back p {
     padding: 0;
     margin: 0;
     text-align: left;
-}
-
-.card-back li {
     margin-bottom: 5px;
     color: #000;
-}
-
-/* Style for list cards list bullet points */
-.arrow-list {
-    list-style-type: none;
-    position: relative;
-    padding-left: 30px;
-}
-
-.arrow-list:before {
-    content: "\25BA";
-    position: absolute;
-    left: -0.2em;
+    text-align: left;
+    font-size: 13px;
 }
 
 /* Style for the headings inside each individual div */
@@ -842,7 +824,7 @@ main div h2 {
     margin-bottom: 10px;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
-    color:rgba(95, 125, 131, 0.973);
+    color: rgba(95, 125, 131, 0.973);
     letter-spacing: 2px;
 }
 
