@@ -221,6 +221,14 @@ nav a:hover {
     padding: 20px;
 }
 
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+    .testimonials {
+        width: 100%;
+        display: block;
+    }
+}
+
 .testimonial {
     background-color: white;
     border-radius: 10px;
@@ -262,23 +270,32 @@ nav a:hover {
 
 /* Services section with links to treatments.html */
 .services-main {
+    display: flex;
     flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .services-area {
     background-color: #E4F0F1;
     padding: 40px;
-    margin-bottom: 30px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    width: 100%;
     float: left;
-    width: 310px;
-    height: 350px;
-    box-sizing: border-box;
+    width: 20%;
+    height: 400px;
+    display: flex;
+    font-stretch: normal;
+}
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+    .services-area {
+        width: 100%;
+        display: block;
+    }
 }
 
 .services-area:nth-child(1) {
