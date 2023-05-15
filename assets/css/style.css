@@ -955,10 +955,12 @@ main div p {
     text-align: justify;
 }
 
-/* @media queries max-width 768px */
-/* @media querie for header */
+/* Media queries rules*/
+/* Rules for mobile screen size large at or bellow 425px width */
 
-@media (max-width: 768px) {
+/* Media rules for header */
+
+@media (max-width: 425px) {
     header {
       display: flex;
       flex-direction: column;
@@ -966,7 +968,9 @@ main div p {
     }
   
     #logo {
-      margin-bottom: 16px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      font-size: 35px;
     }
   
     #nav {
@@ -977,5 +981,38 @@ main div p {
   
     #nav li {
       margin: 0 8px;
+      margin-top: -20px;
+      font-size: 10px;
+      text-align: center;
+    }
+  }
+
+  /* Rules for mobile screen size large at or bellow 800px width */
+
+/* Media rules for header */
+
+@media (max-width: 800px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #logo {
+      margin-bottom: 5px;
+      margin-top: 5px;
+      font-size: 35px;
+    }
+  
+    #nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    #nav li {
+      margin: 0 8px;
+      margin-top: -20px;
+      text-align: center;
     }
   }
