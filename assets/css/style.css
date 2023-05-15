@@ -384,11 +384,12 @@ footer .col-md-6 {
     align-items: center;
     display: flex;
     margin-top: 25px;
+    font-size: 12px;
 }
 
 footer .footer-nav-menu {
     align-self: flex-end;
-    font-size: 12px;
+    font-size: 10px;
     text-transform: capitalize;
 }
 
@@ -424,10 +425,12 @@ footer .footer-nav-menu {
 .social-icons li {
     margin-right: 20px;
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 .social-icons li:last-child {
-    margin-right: 0;
+    display: flex;
+    align-items: center;
 }
 
 .social-icons a {
@@ -1013,6 +1016,28 @@ main div p {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .social-icons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .col-md-6 {
+        order: 1;  
+        font-size: small;
+        padding-left: 10px;
+      }
+
+      .footer-nav-menu {
+        margin-left: 10px;
+        margin-bottom: -30px;
+        font-size: 10px;
+        text-align: center;
+    }
+  }
+
 /* Rules for mobile screen size large at or bellow 425px width */
 
 /* Media rules for header */
@@ -1080,3 +1105,18 @@ main div p {
         box-sizing: border-box;
     }
 }
+
+/* Media rules for footer */
+@media screen and (max-width: 425px) {
+    .connect-with-me {
+      text-align: center;
+    }
+    
+    .social-icons li {
+      margin-bottom: 10px;
+    }
+    .col-md-6 {
+      order: 1;  
+      font-size: small;
+    }
+  }
