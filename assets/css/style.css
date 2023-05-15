@@ -172,7 +172,7 @@ nav a:hover {
 }
 
 .therapy-image {
-    width: 50%;
+    width: 100%;
     padding-right: 20px;
 }
 
@@ -183,7 +183,7 @@ nav a:hover {
 }
 
 .therapy-text {
-    width: 50%;
+    width: 100%;
     padding-left: 20px;
 }
 
@@ -989,6 +989,27 @@ main div p {
     .testimonial {
         height: 300px;
         box-sizing: border-box;
+    }
+}
+
+/* Media rules for about me section within index.html */
+@media screen and (max-width: 800px) {
+    .therapy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .therapy-image {
+        order: 1; 
+        padding-right: 0;
+    }
+
+    .therapy-text {
+        order: 2;
+        margin-top: 30px;
     }
 }
 
