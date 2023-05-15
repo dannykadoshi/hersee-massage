@@ -940,7 +940,7 @@ main div p {
 
 /* Media rules for header */
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     header {
         display: flex;
         flex-direction: column;
@@ -967,7 +967,7 @@ main div p {
 }
 
 /* Media rules for Intro section and image */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .intro-section {
         height: 400px;
 
@@ -975,7 +975,7 @@ main div p {
 }
 
 /* Media rules for services section index.html */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .services-area {
         width: 100%;
         display: block;
@@ -1043,6 +1043,19 @@ main div p {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      size: 15px;
+    }
+
+    .col-md-4 h3 {
+        font-size: 15px;
+    }
+
+    .address p {
+        font-size: 13px;
+    }
+
+    .opening-times li {
+        font-size: 13px;
     }
 
     .col-md-6 {
