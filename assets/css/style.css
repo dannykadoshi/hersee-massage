@@ -1015,6 +1015,27 @@ main div p {
         margin-top: 30px;
     }
 }
+/* Media rules for about me section within about.html */
+@media screen and (max-width: 800px) {
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .about-photo {
+        order: 1; 
+        padding-right: 0;
+    }
+
+    .about-text {
+        order: 2;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 800px) {
     .social-icons {
