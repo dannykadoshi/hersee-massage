@@ -276,6 +276,13 @@ nav a:hover {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    .services-main {
+        margin-top: -115px;
+        /* adjust as needed */
+    }
+}
+
 .services-area {
     background-color: #E4F0F1;
     padding: 40px;
@@ -288,6 +295,7 @@ nav a:hover {
     height: 400px;
     display: flex;
     font-stretch: normal;
+    text-align: center;
 }
 
 /* Styles for screens smaller than 768px */
@@ -295,6 +303,7 @@ nav a:hover {
     .services-area {
         width: 100%;
         display: block;
+        height: 300px;
     }
 }
 
@@ -318,6 +327,12 @@ nav a:hover {
     background-color: #95B0B5;
 }
 
+.services-wrapper-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
 
 .services-wrapper-text h3 {
     font-size: 24px;
@@ -335,6 +350,7 @@ nav a:hover {
 
 .services-buttom {
     margin-top: 20px;
+    margin-top: 50px;
 }
 
 .learn-more-buttom {
@@ -938,3 +954,28 @@ main div p {
     margin-bottom: 20px;
     text-align: justify;
 }
+
+/* @media queries max-width 768px */
+/* @media querie for header */
+
+@media (max-width: 768px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #logo {
+      margin-bottom: 16px;
+    }
+  
+    #nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    #nav li {
+      margin: 0 8px;
+    }
+  }
