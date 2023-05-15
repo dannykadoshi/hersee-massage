@@ -221,20 +221,13 @@ nav a:hover {
     padding: 20px;
 }
 
-/* Styles for screens smaller than 768px */
-@media (max-width: 767px) {
-    .testimonials {
-        width: 100%;
-        display: block;
-    }
-}
-
 .testimonial {
     background-color: white;
     border-radius: 10px;
-    width: calc(33.33% - 20px);
+    width: 100%;
     padding: 20px;
     margin-right: 30px;
+    margin-bottom: 20px;
 }
 
 .testimonial p {
@@ -268,19 +261,12 @@ nav a:hover {
     padding-top: 20px;
 }
 
-/* Services section with links to treatments.html */
+/* Services offered section within index.html */
 .services-main {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
     width: 100%;
-}
-
-@media (max-width: 768px) {
-    .services-main {
-        margin-top: -115px;
-        /* adjust as needed */
-    }
 }
 
 .services-area {
@@ -296,15 +282,6 @@ nav a:hover {
     display: flex;
     font-stretch: normal;
     text-align: center;
-}
-
-/* Styles for screens smaller than 768px */
-@media (max-width: 767px) {
-    .services-area {
-        width: 100%;
-        display: block;
-        height: 300px;
-    }
 }
 
 .services-area:nth-child(1) {
@@ -956,63 +933,129 @@ main div p {
 }
 
 /* Media queries rules*/
+/* Rules for mobile screen size large at or bellow 800px width */
+
+/* Media rules for header */
+
+@media (max-width: 800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-size: 35px;
+    }
+
+    #nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #nav li {
+        margin: 0 8px;
+        margin-top: -20px;
+        text-align: center;
+    }
+}
+
+/* Media rules for Intro section and image */
+@media (max-width: 800px) {
+    .intro-section {
+        height: 400px;
+
+    }
+}
+
+/* Media rules for services section index.html */
+@media (max-width: 800px) {
+    .services-area {
+        width: 100%;
+        display: block;
+        height: 300px;
+    }
+}
+
+/* Media rules for testimonials section */
+@media screen and (max-width: 800px) {
+    .testimonials {
+        display: block;
+    }
+
+    .testimonial {
+        height: 300px;
+        box-sizing: border-box;
+    }
+}
+
 /* Rules for mobile screen size large at or bellow 425px width */
 
 /* Media rules for header */
 
 @media (max-width: 425px) {
     header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     #logo {
-      margin-bottom: 5px;
-      margin-top: 5px;
-      font-size: 35px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-size: 35px;
     }
-  
+
     #nav {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
-  
+
     #nav li {
-      margin: 0 8px;
-      margin-top: -20px;
-      font-size: 10px;
-      text-align: center;
+        margin: 0 8px;
+        margin-top: -20px;
+        font-size: 10px;
+        text-align: center;
     }
-  }
+}
 
-  /* Rules for mobile screen size large at or bellow 800px width */
+/* Media rules for Intro section and image */
+@media (max-width: 425px) {
+    .intro-section {
+        height: 280px;
+    }
 
-/* Media rules for header */
+    .intro-text {
+        width: 50%;
+    }
 
-@media (max-width: 800px) {
-    header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    .intro-text h2 {
+        font-size: 20px;
     }
-  
-    #logo {
-      margin-bottom: 5px;
-      margin-top: 5px;
-      font-size: 35px;
+
+    .intro-text p {
+        font-size: 14px;
     }
-  
-    #nav {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+
+    .intro-text .btn {
+        font-size: 12px;
+        padding: 10px;
+        margin-top: 20px;
     }
-  
-    #nav li {
-      margin: 0 8px;
-      margin-top: -20px;
-      text-align: center;
+}
+
+/* Media rules for testimonials section */
+@media screen and (max-width: 425px) {
+    .testimonials {
+        display: block;
     }
-  }
+
+    .testimonial {
+        height: 330px;
+        box-sizing: border-box;
+    }
+}
