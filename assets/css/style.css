@@ -723,22 +723,23 @@ tr:nth-child(odd) {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 120px;
+    text-align: center;
     margin: 50px 0;
 }
 
 .about-photo {
-    flex: 1;
+    flex: auto;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .about-photo img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid rgba(95, 125, 131, 0.713);
@@ -748,9 +749,9 @@ tr:nth-child(odd) {
 }
 
 .about-text {
-    max-width: 70%;
-    flex: 2;
-    padding: 0 30px;
+    max-width: 90%;
+    flex: auto;
+    padding: 40px;
     text-align: justify;
 }
 
@@ -769,6 +770,7 @@ tr:nth-child(odd) {
     line-height: 1.5;
     margin-bottom: 30px;
     text-align: justify;
+    max-width: 900px;
 }
 
 .about-text ul {
@@ -1024,20 +1026,29 @@ main div p {
         flex-direction: column;
         align-items: center;
         width: 100%;
-
     }
 
     .about-photo {
         order: 1;
-        padding-right: 0;
+        padding-left: 20px;
     }
 
     .about-text {
         order: 2;
-        margin-top: 30px;
         text-align: center;
     }
 }
+/* Media rules for about me section within about.html (max-width: 1125px) and (min-width: 800px) */
+@media screen and (max-width: 1125px) and (min-width: 800px) {
+    .about-photo {
+        padding-left: 10px;
+    }
+
+    .about-text {
+        padding-top: 0;
+    }
+}
+
 
 /* Media rules for the header within about.html, treatments.html and prices.html */
 @media screen and (max-width: 900px) {
