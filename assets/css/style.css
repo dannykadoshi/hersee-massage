@@ -596,10 +596,11 @@ iframe {
     padding: 10px 0;
     position: relative;
     top: 70px;
+    height: 70px;
 }
 
 .current-price-list {
-    position: relative;
+    position: flex;
 }
 
 .current-price-list h1 {
@@ -940,7 +941,7 @@ main div p {
 
 /* Media rules for header */
 
-@media (max-width: 900px) {
+@media (max-width: 1125px) {
     header {
         display: flex;
         flex-direction: column;
@@ -1002,11 +1003,11 @@ main div p {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        
+
     }
 
     .therapy-image {
-        order: 1; 
+        order: 1;
         padding-right: 0;
     }
 
@@ -1015,6 +1016,7 @@ main div p {
         margin-top: 30px;
     }
 }
+
 /* Media rules for about me section within about.html */
 @media screen and (max-width: 800px) {
     .about-section {
@@ -1022,11 +1024,11 @@ main div p {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        
+
     }
 
     .about-photo {
-        order: 1; 
+        order: 1;
         padding-right: 0;
     }
 
@@ -1037,13 +1039,28 @@ main div p {
     }
 }
 
+/* Media rules for the header within about.html, treatments.html and prices.html */
+@media screen and (max-width: 900px) {
+    .tittle-page {
+        top: 5px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 1125px) and (min-width: 900px) {
+    .tittle-page {
+        top: 5px;
+    }
+}
+
+/* Media rules for the footer */
 @media screen and (max-width: 800px) {
     .social-icons {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        size: 15px;
     }
 
     .col-md-4 h3 {
@@ -1059,18 +1076,18 @@ main div p {
     }
 
     .col-md-6 {
-        order: 1;  
+        order: 1;
         font-size: small;
         padding-left: 10px;
-      }
+    }
 
-      .footer-nav-menu {
+    .footer-nav-menu {
         margin-left: 10px;
         margin-bottom: -30px;
         font-size: 10px;
         text-align: center;
     }
-  }
+}
 
 /* Rules for mobile screen size large at or bellow 425px width */
 
@@ -1143,14 +1160,15 @@ main div p {
 /* Media rules for footer */
 @media screen and (max-width: 425px) {
     .connect-with-me {
-      text-align: center;
+        text-align: center;
     }
-    
+
     .social-icons li {
-      margin-bottom: 10px;
+        margin-bottom: 10px;
     }
+
     .col-md-6 {
-      order: 1;  
-      font-size: small;
+        order: 1;
+        font-size: small;
     }
-  }
+}
