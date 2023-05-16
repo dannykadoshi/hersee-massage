@@ -87,7 +87,6 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: 100%;
 
     /* Image animation on loading page */
     animation-name: zoom-in;
@@ -112,6 +111,7 @@ nav a:hover {
 /* Intro text and book appointment buttom styling  */
 
 .intro-text {
+    background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
     background-color: rgba(95, 125, 131, 0.713);
     color: #fff;
     padding: 30px 20px;
@@ -167,12 +167,14 @@ nav a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
     background-color: rgba(95, 125, 131, 0.047);
     padding: 5px;
 }
 
 .therapy-image {
     width: 100%;
+    height: auto;
     padding-right: 20px;
 }
 
@@ -217,6 +219,7 @@ nav a:hover {
 .testimonials {
     display: flex;
     justify-content: space-between;
+    background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
     background-color: rgba(95, 125, 131, 0.127);
     padding: 20px;
 }
@@ -257,6 +260,7 @@ nav a:hover {
     margin-top: 0px;
     letter-spacing: 3px;
     font-family: 'Oswald', sans-serif;
+    background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
     background-color: rgba(95, 125, 131, 0.127);
     padding-top: 20px;
 }
@@ -348,6 +352,7 @@ nav a:hover {
 
 /* Footer and social links styling */
 footer {
+    background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
     background-color: rgba(95, 125, 131, 0.205);
     padding: 30px 0;
     font-size: 16px;
@@ -516,6 +521,7 @@ iframe {
     max-width: 600px;
     text-align: center;
     color: white;
+    background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
     background-color: rgba(95, 125, 131, 0.713);
     padding: 40px;
     border-radius: 50px;
@@ -558,6 +564,7 @@ iframe {
     margin-bottom: 20px;
     font-size: 1rem;
     border: none;
+    background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     text-transform: uppercase;
@@ -619,6 +626,7 @@ table {
 }
 
 th {
+    background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
     background-color: rgba(95, 125, 131, 0.713);
     color: #fff;
     font-weight: bold;
@@ -639,6 +647,7 @@ td {
 }
 
 tr:nth-child(odd) {
+    background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
     background-color: rgba(95, 125, 131, 0.475);
     color: #000;
 }
@@ -651,6 +660,7 @@ tr:nth-child(odd) {
 .prices-table {
     padding: 10px;
     text-transform: uppercase;
+    border: #2B3A3E; /* Fallback border color (Hex or RGB) */
     border: 2px solid rgba(95, 125, 131, 0.713);
     margin: 120px auto 30px auto;
     max-width: fit-content;
@@ -693,6 +703,7 @@ tr:nth-child(odd) {
 
 .discount-card i {
     font-size: 30px;
+    color: #2B3A3E; /* Fallback color (Hex or RGB) */
     color: rgba(95, 125, 131, 0.713);
     margin-bottom: 20px;
 }
@@ -717,7 +728,6 @@ tr:nth-child(odd) {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     text-align: center;
     margin: 50px 0;
@@ -736,6 +746,7 @@ tr:nth-child(odd) {
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
+    border: #2B3A3E; /* Fallback border (Hex or RGB) */
     border: 3px solid rgba(95, 125, 131, 0.713);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-right: 30px;
@@ -812,7 +823,8 @@ main {
     height: 350px;
     margin: 20px;
     perspective: 1000px;
-    border: 0px solid rgba(95, 125, 131, 0.433);
+    border: #2B3A3E; /* Fallback background color (Hex or RGB) */
+    border: 0 solid rgba(95, 125, 131, 0.433);
     border-radius: 11px;
 }
 
@@ -831,8 +843,6 @@ main {
     border-radius: 10px;
     background-color: #46646A;
     font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-size: 15px;
     z-index: 10;
     width: 190px;
     height: 60px;
@@ -873,6 +883,7 @@ main {
 
 .card-back {
     transform: rotateY(180deg);
+    background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
     background-color: rgba(95, 125, 131, 0.228);
     color: #000;
     display: flex;
@@ -935,7 +946,7 @@ main div h3 {
 /* Style for the text inside each individual div */
 main div p {
     color: #555;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
     text-align: justify;
