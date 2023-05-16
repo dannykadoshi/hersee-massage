@@ -942,7 +942,7 @@ main div p {
 }
 
 /* Media queries rules*/
-/* Rules for mobile screen size large at or bellow 800px width */
+/* Rules for mobile screen size large at or bellow 1125px, 900px or 800px width */
 
 /* Media rules for header */
 
@@ -1041,6 +1041,7 @@ main div p {
         text-align: center;
     }
 }
+
 /* Media rules for about me section within about.html (max-width: 1125px) and (min-width: 800px) */
 @media screen and (max-width: 1125px) and (min-width: 800px) {
     .about-photo {
@@ -1110,86 +1111,106 @@ main div p {
         margin: 60px 20px auto;
     }
 
-/* Rules for mobile screen size large at or bellow 425px width */
+    /* Media rules for contact.html */
+    /* Media rules for contact form within contact.html*/
+    @media (max-width: 900px) {
+        .contact-section {
+            max-width: 70%;
+            margin: 0 auto;
+        }
 
-/* Media rules for header */
+        .contact-form h2 {
+            font-size: 24px;
+        }
 
-@media (max-width: 425px) {
-    header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            font-size: 15px;
+        }
     }
 
-    #logo {
-        margin-bottom: 5px;
-        margin-top: 5px;
-        font-size: 35px;
+    /* Rules for mobile screen size large at or bellow 425px width */
+
+    /* Media rules for header */
+
+    @media (max-width: 425px) {
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #logo {
+            margin-bottom: 5px;
+            margin-top: 5px;
+            font-size: 35px;
+        }
+
+        #nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        #nav li {
+            margin: 0 8px;
+            margin-top: -20px;
+            font-size: 10px;
+            text-align: center;
+        }
     }
 
-    #nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    /* Media rules for Intro section and image */
+    @media (max-width: 425px) {
+        .intro-section {
+            height: 280px;
+        }
+
+        .intro-text {
+            width: 50%;
+        }
+
+        .intro-text h2 {
+            font-size: 20px;
+        }
+
+        .intro-text p {
+            font-size: 14px;
+        }
+
+        .intro-text .btn {
+            font-size: 12px;
+            padding: 10px;
+            margin-top: 20px;
+        }
     }
 
-    #nav li {
-        margin: 0 8px;
-        margin-top: -20px;
-        font-size: 10px;
-        text-align: center;
-    }
-}
+    /* Media rules for testimonials section */
+    @media screen and (max-width: 425px) {
+        .testimonials {
+            display: block;
+        }
 
-/* Media rules for Intro section and image */
-@media (max-width: 425px) {
-    .intro-section {
-        height: 280px;
+        .testimonial {
+            height: 330px;
+            box-sizing: border-box;
+        }
     }
 
-    .intro-text {
-        width: 50%;
-    }
+    /* Media rules for footer */
+    @media screen and (max-width: 425px) {
+        .connect-with-me {
+            text-align: center;
+        }
 
-    .intro-text h2 {
-        font-size: 20px;
-    }
+        .social-icons li {
+            margin-bottom: 10px;
+        }
 
-    .intro-text p {
-        font-size: 14px;
+        .col-md-6 {
+            order: 1;
+            font-size: small;
+        }
     }
-
-    .intro-text .btn {
-        font-size: 12px;
-        padding: 10px;
-        margin-top: 20px;
-    }
-}
-
-/* Media rules for testimonials section */
-@media screen and (max-width: 425px) {
-    .testimonials {
-        display: block;
-    }
-
-    .testimonial {
-        height: 330px;
-        box-sizing: border-box;
-    }
-}
-
-/* Media rules for footer */
-@media screen and (max-width: 425px) {
-    .connect-with-me {
-        text-align: center;
-    }
-
-    .social-icons li {
-        margin-bottom: 10px;
-    }
-
-    .col-md-6 {
-        order: 1;
-        font-size: small;
-    }
-}
