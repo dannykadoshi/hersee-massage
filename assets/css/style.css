@@ -620,6 +620,7 @@ table {
     right: 20px;
     width: 100%;
     display: contents;
+    padding: 50px;
 }
 
 th {
@@ -633,6 +634,8 @@ th {
 td {
     border: 1px solid #ddd;
     padding: 8px;
+    max-width: fit-content;
+    word-break: break-word;
 }
 
 .price-list th:nth-child(2),
@@ -655,8 +658,8 @@ tr:nth-child(odd) {
     text-transform: uppercase;
     border: 2px solid rgba(95, 125, 131, 0.713);
     margin: 120px auto 30px auto;
-    width: 50%;
     max-width: fit-content;
+    min-width: fit-content;
 }
 
 .price-list thead th {
@@ -1099,6 +1102,13 @@ main div p {
         text-align: center;
     }
 }
+
+/* Media rules for prices.html */
+/* Media rules for prices table within prices.html*/
+@media screen and (max-width: 900px) {
+    .prices-table {
+        margin: 60px 20px auto;
+    }
 
 /* Rules for mobile screen size large at or bellow 425px width */
 
