@@ -285,23 +285,23 @@ nav a:hover {
 }
 
 .services-area:nth-child(1) {
-    background-color: #17353A;
+    background-color: #0F2C30;
 }
 
 .services-area:nth-child(2) {
-    background-color: #2F4C51;
+    background-color: #143E45;
 }
 
 .services-area:nth-child(3) {
-    background-color: #46646A;
+    background-color: #1A5057;
 }
 
 .services-area:nth-child(4) {
-    background-color: #5F7D83;
+    background-color: #206469;
 }
 
 .services-area:nth-child(5) {
-    background-color: #95B0B5;
+    background-color: #26777D;
 }
 
 .services-wrapper-text {
@@ -327,7 +327,6 @@ nav a:hover {
 
 .services-buttom {
     margin-top: 20px;
-    margin-top: 50px;
 }
 
 .learn-more-buttom {
@@ -592,7 +591,7 @@ iframe {
 /* Price List heading */
 
 .tittle-page {
-    background: rgba(95, 125, 131, 0.713);
+    background: #17353A;
     padding: 10px 0;
     position: relative;
     top: 70px;
@@ -631,6 +630,7 @@ td {
     border: 1px solid #ddd;
     padding: 8px;
     max-width: fit-content;
+
 }
 
 .price-list th:nth-child(2),
@@ -732,8 +732,8 @@ tr:nth-child(odd) {
 }
 
 .about-photo img {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid rgba(95, 125, 131, 0.713);
