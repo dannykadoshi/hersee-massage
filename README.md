@@ -17,7 +17,7 @@ Experience the transformative power of massage therapy and let your worries melt
 ## FEATURES
 -------------------------------------------------------------------------------------------------------------------
 
-- Navigation
+- **Navigation**
 
   + **Clear and intuitive navigation menu:** The website features a user-friendly navigation menu located at the top of every page, allowing users to easily explore different sections of the website.
 
@@ -37,6 +37,7 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Responsive design:** The navigation menu is designed to be responsive, adapting to different screen sizes and devices. This ensures that users can access and navigate the website easily, regardless of whether they are using a desktop computer, tablet, or mobile phone.
 
+/assets/images/heading-nav-menu.png
 -------------------------------------------------------------------------------------------------------------------
 
 
