@@ -93,7 +93,7 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Formspree form** Upon submission, the form data is sent to an external URL for processing. The form is set to accept character set UTF-8 and submits data to **[FORMSPREE](https://formspree.io/f/mknayaby)** using the POST method.
 
-  ##TESTING
+## TESTING
 
   + I verified the cross-browser compatibility of the page by testing it in Chrome, Firefox, and Safari to ensure it functions correctly on different browsers.
 
@@ -107,3 +107,39 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + To ensure a well-performing and user-friendly website, I have conducted thorough testing for links, navigatoins, page load times, image optimization and form validation.
 
+### Bugs
+
+  + In the process of developing this project, I have diligently tested the website and am pleased to report that no significant bugs or issues have been detected. I have strived to deliver a bug-free and user-friendly website experience.
+
+### Validator Testing
+
+During the development process, I meticulously tested the website to ensure its high quality and adherence to web standards.
+
+  + **HTML**
+   - I am pleased to state that the project successfully passed through the official W3C validator without encountering any errors.
+
+  + **CSS**
+   - Additionally, I conducted a evaluation using the official Jigsaw validator, and once again, no errors were idenfied, affirming the website's adherence to best practices and standards.
+
+  + **Accessibility**
+   - To ensure the accessibility and performance of each page, I employed the Chrome DevTools Lighthouse feature. This powerful tool allowed me to evaluate the website's accessibility on both desktop and mobile platforms comprehensively. 
+   - By utilizing the Chrome DevTools Lighthouse, I have taken proactive measures to ensure that the website meets accessibility standards, providing an inclusive experience for all users across various devices.
+   - I ran the accessibility tests for every page, meticulously examining elements such as text readability, color contrast, keyboard navigation, and proper labeling of interactive elements. The results of these tests are presented below.
+
+### Unfixed Bugs
+
+  + Based on my extensive testing and thorough review of the website, I can confidently state that to the best of my knowledge, there are no unfixed bugs present.
+
+## DEPLOYMENT
+
+The website was created using CodeAnywhere, and subsequently, the deployment process involved using GitHub Pages. The deployment steps are outlined below:
+
+1. First, the website was developed and coded within the CodeAnywhere environment.
+2. Once the development phase was complete, the project files were uploaded to a GitHub repository.
+3. To enable deployment on GitHub Pages, the repository's settings were configured to select the appropriate branch for deployment.
+4. The website was then deployed by activating the GitHub Pages feature, which triggered the automatic build and publication process.
+5. Upon successful deployment, the website became accessible to users through its designated GitHub Pages URL.
+
+This deployment process allowed for seamless hosting and accessibility of the website using GitHub Pages.
+
+You can access the live website by following **[THIS LINK](ENTER LINK HERE)**
