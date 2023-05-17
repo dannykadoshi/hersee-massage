@@ -86,4 +86,18 @@ Experience the transformative power of massage therapy and let your worries melt
 
 ### - **Main body**
 
-  + **
+  + **Treatment description:** The description emphasizes the holistic approach of Hersee Massage by addressing not only physical aspects but also energetic, emotional, and nutritional systems.
+  
+  + **Flipping cards:** Each treatment is presented in a visually appealing manner with a flipping card design, featuring a front image and a back section with the treatment's benefits.
+
+  + **Appointment requirements:** It informs users about the appropriate dress and recommends arriving 10 minutes prior to the scheduled appointment for consultation and relaxation time.
+
+## PRICES PAGE
+-------------------------------------------------------------------------------------------------------------------
+## FEATURES
+
+### - **Main body**
+
+  + **Prices and Duration table:** A table is presented below the header, showing the different treatments, their corresponding prices, and durations. 
+
+  + **Special discounts:** The page also includes a section dedicated to special discounts. The discount section features three cards and each includes an icon, a title, and a description of the discount offer. It provides an engaging way to encourage potential customers to take advantage of special offers.
