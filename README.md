@@ -134,15 +134,15 @@ During the development process, I meticulously tested the website to ensure its 
 
 The website was created using CodeAnywhere, and subsequently, the deployment process involved using GitHub Pages. The deployment steps are outlined below:
 
-  **1.** First, the website was developed and coded within the CodeAnywhere environment.
+    1. First, the website was developed and coded within the CodeAnywhere environment.
 
-  **2.** Once the development phase was complete, the project files were uploaded to a GitHub repository.
+    2. Once the development phase was complete, the project files were uploaded to a GitHub repository.
 
-  **3.** To enable deployment on GitHub Pages, the repository's settings were configured to select the appropriate branch for deployment.
+    3. To enable deployment on GitHub Pages, the repository's settings were configured to select the appropriate branch for deployment.
 
-  **4.** The website was then deployed by activating the GitHub Pages feature, which triggered the automatic build and publication process.
+    4. The website was then deployed by activating the GitHub Pages feature, which triggered the automatic build and publication process.
 
-  **5.** Upon successful deployment, the website became accessible to users through its designated GitHub Pages URL.
+    5. Upon successful deployment, the website became accessible to users through its designated GitHub Pages URL.
 
 This deployment process allowed for seamless hosting and accessibility of the website using GitHub Pages.
 
@@ -187,3 +187,13 @@ I would like to give credit to the following images used in my project, all of w
 * Contact page image: **[Photo by Andrea Piacquadio](https://www.pexels.com/photo/photo-of-woman-getting-a-back-massage-3760262/)**
 
 All images used are free to use.
+
+**Acknowledgments:** I would like to express my gratitude to the websites mentioned in the "Credits" section for providing design inspiration and references during the development process. 
+
+Their insights and designs have greatly contributed to the overall quality and aesthetics of the website. I would also like to thank Pexels for providing the high-quality images used throughout the website.
+
+## FINAL CONSIDERATIONS
+
+Feel free to explore the website and provide feedback or suggestions for improvement. 
+
+I hope you and your users enjoy a seamless and relaxing browsing experience on Hersee Massage's website. Thank you for your trust and support!
