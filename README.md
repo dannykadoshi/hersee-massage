@@ -14,7 +14,7 @@ Experience the transformative power of massage therapy and let your worries melt
 
 **IMAGE GOES HERE**
 
-## FEATURES
+## MAIN PAGE FEATURES
 -------------------------------------------------------------------------------------------------------------------
 
 - **Navigation**
@@ -37,7 +37,32 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Responsive design:** The navigation menu is designed to be responsive, adapting to different screen sizes and devices. This ensures that users can access and navigate the website easily, regardless of whether they are using a desktop computer, tablet, or mobile phone.
 
+<img width="1173" alt="Screenshot displaying the logo and navigation menu of the website" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/c666c7bd-e63f-4f2d-9faa-18a670bf5e72">
 
 -------------------------------------------------------------------------------------------------------------------
+- **Main Sections**
+  
+  + **Eye-catching hero section:** The Main page features a visually appealing hero section that immediately grabs the attention of users. It includes high-quality image, a welcoming message, and a prominent call-to-action.
 
+  + **Introduction to Hersee Massage:** The page provides a concise and engaging introduction to Hersee Massage. This section highlights the key benefits and unique selling points of our massage services, enticing users to explore further.
+
+  + **Featured Treatments:** It showcases a selection of featured treatments offered by Hersee Massage. This feature allows users to get a glimpse of the range of services available and encourages them to discover more on the Treatments page.
+
+  + **Testimonials:** User testimonials or reviews are prominently displayed on the main page. These testimonials serve as social proof, building trust and credibility among visitors. They provide insights into the positive experiences of previous clients and highlight the effectiveness of your massage treatments.
+
+  + **Call-to-action buttons:** The page includes strategically placed call-to-action buttons that prompt users to take a specific action, such as booking a session or learning more about the services. These buttons are designed to stand out and encourage user engagement.
+
+  + **About Section:** It feature a brief description about Hersee Massage, providing additional information about the business's background, philosophy, or mission. This helps users develop a deeper understanding of your brand and values.
+
+  + **Responsive Design:** The main page is designed to be responsive, ensuring that it looks great and functions well on different devices and screen sizes. This feature allows users to have a seamless browsing experience, whether they are accessing the website from a desktop computer, tablet, or mobile phone.
+
+- **The footer**
+
+  + **Navigation Menu:** The main page, includes a navigation menu that remains consistent across all pages of the website. This allows users to easily navigate to other sections of the website and find the information they are looking for without having to go back to the page heading.
+
+  + **Contact Information:** It display essential contact information, such as phone number and email address, making it convenient for users to reach out to Hersee Massage for inquiries or bookings.
+
+  + **Social Media Integration:** The page include links to Hersee Massage's social media profiles, allowing users to connect and engage with the business on platforms such as Instagram and Facebook. All links are fully clicable and working.
+
+  + **Address and Opening Times:** It includes the address of Hersee Massage, conveniently providing users with the physical location of the business. Additionally, the opening times for each day of the week are listed, allowing users to easily plan their visit or schedule an appointment accordingly.
 
