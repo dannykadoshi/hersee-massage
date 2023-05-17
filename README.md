@@ -15,7 +15,6 @@ Experience the transformative power of massage therapy and let your worries melt
 **IMAGE GOES HERE**
 
 ## FEATURES
--------------------------------------------------------------------------------------------------------------------
 
 - **Navigation**
 
@@ -37,7 +36,8 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Responsive design:** The navigation menu is designed to be responsive, adapting to different screen sizes and devices. This ensures that users can access and navigate the website easily, regardless of whether they are using a desktop computer, tablet, or mobile phone.
 
+<img width="1173" alt="heading-nav-menu" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/c666c7bd-e63f-4f2d-9faa-18a670bf5e72">
 
--------------------------------------------------------------------------------------------------------------------
+
 
 
