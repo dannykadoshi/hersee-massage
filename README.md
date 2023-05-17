@@ -14,14 +14,11 @@ Experience the transformative power of massage therapy and let your worries melt
 
 **IMAGE GOES HERE**
 
-<<<<<<< HEAD
 ## MAIN PAGE FEATURES
 -------------------------------------------------------------------------------------------------------------------
-=======
 ## FEATURES
->>>>>>> 9d29aa98ca1f2d40319b2adc164b553c8f5fc947
 
-- **Navigation**
+### - **Navigation**
 
   + **Clear and intuitive navigation menu:** The website features a user-friendly navigation menu located at the top of every page, allowing users to easily explore different sections of the website.
 
@@ -41,18 +38,12 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Responsive design:** The navigation menu is designed to be responsive, adapting to different screen sizes and devices. This ensures that users can access and navigate the website easily, regardless of whether they are using a desktop computer, tablet, or mobile phone.
 
-<<<<<<< HEAD
 <img width="1173" alt="Screenshot displaying the logo and navigation menu of the website" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/c666c7bd-e63f-4f2d-9faa-18a670bf5e72">
 
 -------------------------------------------------------------------------------------------------------------------
 - **Main Sections**
   
   + **Eye-catching hero section:** The Main page features a visually appealing hero section that immediately grabs the attention of users. It includes high-quality image, a welcoming message, and a prominent call-to-action.
-=======
-<img width="1173" alt="heading-nav-menu" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/c666c7bd-e63f-4f2d-9faa-18a670bf5e72">
-
-
->>>>>>> 9d29aa98ca1f2d40319b2adc164b553c8f5fc947
 
   + **Introduction to Hersee Massage:** The page provides a concise and engaging introduction to Hersee Massage. This section highlights the key benefits and unique selling points of our massage services, enticing users to explore further.
 
@@ -76,3 +67,23 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Address and Opening Times:** It includes the address of Hersee Massage, conveniently providing users with the physical location of the business. Additionally, the opening times for each day of the week are listed, allowing users to easily plan their visit or schedule an appointment accordingly.
 
+
+## ABOUT PAGE
+-------------------------------------------------------------------------------------------------------------------
+## FEATURES
+
+### - **Main body**
+
+  + **Introduction of Tara Hersee:** The about page provides an introduction to Tara Hersee, a highly qualified and experienced massage therapist with over 10 years of hands-on experience. It highlights her dedication to providing clients with the highest level of service and her professional yet warm approach.
+
+  + **Range of Expertise:** The page showcases Tara's expertise in various massage techniques, including, deep tissue massage, sports massage, pregnancy massage, and lymphatic drainage. This demonstrates her diverse skill set and the ability to cater to different client needs.
+
+  + **Qualifications:** The page lists Tara's qualifications. This highlights her commitment to continuous learning and staying up-to-date with the latest industry practices.
+
+## TREATMENTS PAGE
+-------------------------------------------------------------------------------------------------------------------
+## FEATURES
+
+### - **Main body**
+
+  + **
