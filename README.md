@@ -15,8 +15,8 @@ Experience the transformative power of massage therapy and let your worries melt
 
 ## FEATURES
 
-> ### Header
->
+### Header
+
 > + **Clear and intuitive navigation menu:** The website features a user-friendly navigation menu located at the top of every page, allowing users to easily explore different sections of the website.
 
 > + **Home:** The *"Home"* link takes users back to the homepage, providing a quick and convenient way to return to the main page.
