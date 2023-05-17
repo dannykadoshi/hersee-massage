@@ -14,8 +14,12 @@ Experience the transformative power of massage therapy and let your worries melt
 
 **IMAGE GOES HERE**
 
+<<<<<<< HEAD
 ## MAIN PAGE FEATURES
 -------------------------------------------------------------------------------------------------------------------
+=======
+## FEATURES
+>>>>>>> 9d29aa98ca1f2d40319b2adc164b553c8f5fc947
 
 - **Navigation**
 
@@ -37,12 +41,18 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Responsive design:** The navigation menu is designed to be responsive, adapting to different screen sizes and devices. This ensures that users can access and navigate the website easily, regardless of whether they are using a desktop computer, tablet, or mobile phone.
 
+<<<<<<< HEAD
 <img width="1173" alt="Screenshot displaying the logo and navigation menu of the website" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/c666c7bd-e63f-4f2d-9faa-18a670bf5e72">
 
 -------------------------------------------------------------------------------------------------------------------
 - **Main Sections**
   
   + **Eye-catching hero section:** The Main page features a visually appealing hero section that immediately grabs the attention of users. It includes high-quality image, a welcoming message, and a prominent call-to-action.
+=======
+<img width="1173" alt="heading-nav-menu" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/c666c7bd-e63f-4f2d-9faa-18a670bf5e72">
+
+
+>>>>>>> 9d29aa98ca1f2d40319b2adc164b553c8f5fc947
 
   + **Introduction to Hersee Massage:** The page provides a concise and engaging introduction to Hersee Massage. This section highlights the key benefits and unique selling points of our massage services, enticing users to explore further.
 
