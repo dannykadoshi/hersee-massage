@@ -19,7 +19,6 @@ body {
 }
 
 /* Heading styles */
-
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -37,11 +36,10 @@ h1 {
     color: #46646A;
 }
 
-/* Navigation links */
-
+/* Navigation links header*/
 nav {
     font-size: 90%;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     line-height: 70px;
     float: right;
 }
@@ -74,7 +72,6 @@ nav a:hover {
 }
 
 /* Intro section and image styling */
-
 .intro-section {
     animation: zoomIn 10s ease-in-out infinite;
     background-image: url('../images/sholder-massage.webp');
@@ -96,8 +93,7 @@ nav a:hover {
     animation-fill-mode: forwards;
 }
 
-/* Keyframe to loading page */
-
+/* Keyframe to image at loading page */
 @keyframes zoom-in {
     0% {
         background-size: 100%;
@@ -109,7 +105,6 @@ nav a:hover {
 }
 
 /* Intro text and book appointment buttom styling  */
-
 .intro-text {
     background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
     background-color: rgba(95, 125, 131, 0.713);
@@ -161,7 +156,7 @@ nav a:hover {
     background-color: #c0392b;
 }
 
-/* Business Introduction styling index.html */
+/* About me section styling at index.html */
 .therapy {
     display: flex;
     flex-direction: row;
@@ -349,7 +344,6 @@ nav a:hover {
     background-color: #c0392b;
 }
 
-
 /* Footer and social links styling */
 footer {
     background-color: #2B3A3E; /* Fallback background color (Hex or RGB) */
@@ -461,7 +455,7 @@ iframe {
     border-radius: 10px;
 }
 
-/* Opening times */
+/* Opening times - footer*/
 .opening-times h3 {
     font-weight: bold;
     font-size: 20px;
@@ -484,7 +478,7 @@ iframe {
     margin-bottom: 10px;
 }
 
-/* Address */
+/* Address - footer*/
 .address {
     display: flex;
     flex-direction: column;
@@ -596,7 +590,6 @@ iframe {
 /* Styling for prices.html */
 
 /* Price List heading */
-
 .tittle-page {
     background: #17353A;
     padding: 10px 0;
@@ -722,8 +715,7 @@ tr:nth-child(odd) {
     line-height: 1.5;
 }
 
-/* About.html styling */
-
+/* Styling for About.html */
 .about-section {
     display: flex;
     justify-content: center;
@@ -788,7 +780,7 @@ tr:nth-child(odd) {
     margin-bottom: 10px;
 }
 
-/* treatments.html styling */
+/* Styling for treatments.html */
 
 /* Style for the main section */
 main {
@@ -810,7 +802,6 @@ main {
 }
 
 /* Rotating cards styling and positioning in the page */
-
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -925,8 +916,8 @@ main {
     font-size: 13px;
 }
 
-/* Style for the headings inside each individual div */
-main div h2 {
+/* Style for the headings */
+main div h2, h3 {
     color: #3a3a3a;
     font-size: 28px;
     margin-bottom: 10px;
@@ -936,14 +927,7 @@ main div h2 {
     letter-spacing: 2px;
 }
 
-main div h3 {
-    color: #3a3a3a;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-family: Oswald, sans-serif;
-}
-
-/* Style for the text inside each individual div */
+/* Style for the paragraphs */
 main div p {
     color: #555;
     font-size: 16px;
@@ -953,10 +937,9 @@ main div p {
 }
 
 /* Media queries rules*/
-/* Rules for mobile screen size large at or bellow 1125px, 900px or 800px width */
+/* Variation of rules for screen sizes large at or bellow 1200px, 1125px, 900px, 800px width */
 
-/* Media rules for header */
-
+/* Media rules for header - all pages*/
 @media (max-width: 1125px) {
     header {
         display: flex;
@@ -983,7 +966,7 @@ main div p {
     }
 }
 
-/* Media rules for Intro section and image */
+/* Media rules for Intro section and image - index.html */
 @media (max-width: 900px) {
     .intro-section {
         height: 400px;
@@ -991,7 +974,7 @@ main div p {
     }
 }
 
-/* Media rules for services section index.html */
+/* Media rules for services section - index.html */
 @media (max-width: 1000px) {
     .services-area {
         width: 100%;
@@ -1000,7 +983,7 @@ main div p {
     }
 }
 
-/* Media rules for testimonials section */
+/* Media rules for testimonials section - index.html */
 @media screen and (max-width: 800px) {
     .testimonials {
         display: block;
@@ -1012,13 +995,12 @@ main div p {
     }
 }
 
-/* Media rules for about me section within index.html */
+/* Media rules for about me section - index.html */
 @media screen and (max-width: 800px) {
     .therapy {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
 
     }
 
@@ -1033,7 +1015,8 @@ main div p {
     }
 }
 
-/* Media rules for about me section within about.html */
+/* Media rules for about.html */
+/* Media rules for about me section - about.html */
 @media screen and (max-width: 800px) {
     .about-section {
         display: flex;
@@ -1064,7 +1047,6 @@ main div p {
     }
 }
 
-
 /* Media rules for the header within about.html, treatments.html and prices.html */
 @media screen and (max-width: 900px) {
     .tittle-page {
@@ -1079,7 +1061,7 @@ main div p {
     }
 }
 
-/* Media rules for the footer */
+/* Media rules for the footer - All pages */
 @media screen and (max-width: 800px) {
     .social-icons {
         display: flex;
@@ -1115,7 +1097,7 @@ main div p {
 }
 
 /* Media rules for prices.html */
-/* Media rules for prices table within prices.html*/
+/* Media rules for prices table - prices.html*/
 @media screen and (max-width: 900px) {
     .prices-table {
         margin: 60px 20px auto;
@@ -1123,7 +1105,7 @@ main div p {
 }
 
 /* Media rules for contact.html */
-/* Media rules for contact form within contact.html*/
+/* Media rules for contact form - contact.html*/
 @media (max-width: 900px) {
     .contact-section {
         max-width: 70%;
@@ -1143,7 +1125,7 @@ main div p {
 }
 
 /* Media rules for treatments.html */
-/* Media rules for flipping cards within treatment.html*/
+/* Media rules for flipping cards - treatment.html*/
 @media screen and (max-width: 1200px) {
     .card-container {
         grid-template-columns: repeat(3, 1fr);
@@ -1172,13 +1154,11 @@ main div p {
     main {
         padding-top: 40px;
     }
-
 }
 
-/* Rules for mobile screen size large at or bellow 425px width */
+/* Rules for mobile screen size at or bellow 425px width */
 
-/* Media rules for header */
-
+/* Media rules for header - all pages */
 @media (max-width: 425px) {
     header {
         display: flex;
@@ -1205,15 +1185,16 @@ main div p {
         text-align: center;
     }
 }
-
-/* Media rules for Intro section and image */
+/* Media rules index.html */
+/* Media rules for Intro section and image - index.html */
 @media (max-width: 425px) {
     .intro-section {
-        height: 280px;
+        height: 250px;
     }
 
     .intro-text {
         width: 50%;
+        height: 70%;
     }
 
     .intro-text h2 {
@@ -1231,7 +1212,7 @@ main div p {
     }
 }
 
-/* Media rules for testimonials section */
+/* Media rules for testimonials section - index.html */
 @media screen and (max-width: 425px) {
     .testimonials {
         display: block;
@@ -1243,7 +1224,7 @@ main div p {
     }
 }
 
-/* Media rules for footer */
+/* Media rules for footer - all pages */
 @media screen and (max-width: 425px) {
     .connect-with-me {
         text-align: center;
@@ -1256,5 +1237,16 @@ main div p {
     .col-md-6 {
         order: 1;
         font-size: small;
+    }
+}
+
+/* Media rules for contact.html */
+/* Media rules for contact form - contact.html*/
+@media (max-width: 425px) {
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: 100%;
+        font-size: 12px;
     }
 }
