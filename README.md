@@ -13,7 +13,9 @@ Hersee Massage is dedicated to promoting the physical and mental well-being of o
 Experience the transformative power of massage therapy and let your worries melt away with Hersee Massage."
 
 
-## HEADER FEATURES
+## HEADER
+
+#### Features
 
   + **Clear and intuitive navigation menu:** The website features a user-friendly navigation menu located at the top of every page, allowing users to easily explore different sections of the website.
 
@@ -36,7 +38,9 @@ Experience the transformative power of massage therapy and let your worries melt
 <img width="1173" alt="Screenshot displaying the logo and navigation menu of the website" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/c666c7bd-e63f-4f2d-9faa-18a670bf5e72">
 
 
-## FOOTER FEATURES
+## FOOTER
+
+#### Features
 
   + **Navigation Menu:** The main page, includes a navigation menu that remains consistent across all pages of the website. This allows users to easily navigate to other sections of the website and find the information they are looking for without having to go back to the page heading.
 
@@ -46,7 +50,9 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Address and Opening Times:** It includes the address of Hersee Massage, conveniently providing users with the physical location of the business. Additionally, the opening times for each day of the week are listed, allowing users to easily plan their visit or schedule an appointment accordingly.
 
-## MAIN PAGE FEATURES
+## MAIN PAGE
+
+#### Features
   
   + **Eye-catching hero section:** The Main page features a visually appealing hero section that immediately grabs the attention of users. It includes high-quality image, a welcoming message, and a prominent call-to-action.
 
@@ -62,7 +68,9 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Responsive Design:** The main page is designed to be responsive, ensuring that it looks great and functions well on different devices and screen sizes. This feature allows users to have a seamless browsing experience, whether they are accessing the website from a desktop computer, tablet, or mobile phone.
 
-## ABOUT PAGE FEATURES
+## ABOUT PAGE
+
+#### Features
 
   + **Introduction of Tara Hersee:** The about page provides an introduction to Tara Hersee, a highly qualified and experienced massage therapist with over 10 years of hands-on experience. It highlights her dedication to providing clients with the highest level of service and her professional yet warm approach.
 
@@ -70,7 +78,9 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Qualifications:** The page lists Tara's qualifications. This highlights her commitment to continuous learning and staying up-to-date with the latest industry practices.
 
-## TREATMENTS PAGE FEATURES
+## TREATMENTS PAGE
+
+#### Features
 
   + **Treatment description:** The description emphasizes the holistic approach of Hersee Massage by addressing not only physical aspects but also energetic, emotional, and nutritional systems.
   
@@ -78,7 +88,9 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Appointment requirements:** It informs users about the appropriate dress and recommends arriving 10 minutes prior to the scheduled appointment for consultation and relaxation time.
 
-## PRICES PAGE FEATURES
+## PRICES PAGE
+
+#### Features
 
   + **Prices and Duration table:** A table is presented below the header, showing the different treatments, their corresponding prices, and durations. 
 
