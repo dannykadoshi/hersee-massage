@@ -132,7 +132,7 @@ During the development process, I meticulously tested the website to ensure its 
 
 ## DEPLOYMENT
 
-The website was created using CodeAnywhere, and subsequently, the deployment process involved using GitHub Pages. The deployment steps are outlined below:
++ The website was created using CodeAnywhere, and subsequently, the deployment process involved using GitHub Pages. The deployment steps are outlined below:
 
     1. First, the website was developed and coded within the CodeAnywhere environment.
 
