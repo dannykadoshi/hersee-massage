@@ -17,23 +17,23 @@ Experience the transformative power of massage therapy and let your worries melt
 
 ### Header
 
-> + **Clear and intuitive navigation menu:** The website features a user-friendly navigation menu located at the top of every page, allowing users to easily explore different sections of the website.
+  + **Clear and intuitive navigation menu:** The website features a user-friendly navigation menu located at the top of every page, allowing users to easily explore different sections of the website.
 
-> + **Home:** The *"Home"* link takes users back to the homepage, providing a quick and convenient way to return to the main page.
+  + **Home:** The *"Home"* link takes users back to the homepage, providing a quick and convenient way to return to the main page.
 
-> + **About:** The *"About"* link provides detailed information about Hersee Massage, including the background, mission, and values of the business. Users can learn more about the expertise and qualifications of the massage therapists.
+  + **About:** The *"About"* link provides detailed information about Hersee Massage, including the background, mission, and values of the business. Users can learn more about the expertise and qualifications of the massage therapists.
 
-> + **Treatments:** The *"Treatments"* link leads users to a dedicated page where they can explore various massage treatments offered by Hersee Massage. Each treatment is described in detail, helping users understand the specific benefits and choose the most suitable option for their needs.
+  + **Treatments:** The *"Treatments"* link leads users to a dedicated page where they can explore various massage treatments offered by Hersee Massage. Each treatment is described in detail, helping users understand the specific benefits and choose the most suitable option for their needs.
 
-> + **Prices:** The *"Prices"* link directs users to a page that displays transparent pricing information for the massage services. This feature allows users to plan and budget for their sessions in advance, ensuring a hassle-free experience.
+  + **Prices:** The *"Prices"* link directs users to a page that displays transparent pricing information for the massage services. This feature allows users to plan and budget for their sessions in advance, ensuring a hassle-free experience.
 
-> + **Contact:** The *"Contact"* link provides users with a convenient way to get in touch with Hersee Massage. By clicking on the link, users are directed to a contact form where they can fill in their details and send inquiries or schedule appointments.
+  + **Contact:** The *"Contact"* link provides users with a convenient way to get in touch with Hersee Massage. By clicking on the link, users are directed to a contact form where they can fill in their details and send inquiries or schedule appointments.
 
-> + **Active page indicator:** The active page is visually distinguished in the navigation menu, making it easy for users to identify their current location within the website.
+  + **Active page indicator:** The active page is visually distinguished in the navigation menu, making it easy for users to identify their current location within the website.
 
-> + **Consistent navigation across pages:** The navigation menu remains consistent across all pages of the website, ensuring a seamless browsing experience and allowing users to navigate effortlessly between different sections.
+  + **Consistent navigation across pages:** The navigation menu remains consistent across all pages of the website, ensuring a seamless browsing experience and allowing users to navigate effortlessly between different sections.
 
-> + **Responsive design:** The navigation menu is designed to be responsive, adapting to different screen sizes and devices. This ensures that users can access and navigate the website easily, regardless of whether they are using a desktop computer, tablet, or mobile phone.
+  + **Responsive design:** The navigation menu is designed to be responsive, adapting to different screen sizes and devices. This ensures that users can access and navigate the website easily, regardless of whether they are using a desktop computer, tablet, or mobile phone.
 
 <img width="1173" alt="Screenshot displaying the logo and navigation menu of the website" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/c666c7bd-e63f-4f2d-9faa-18a670bf5e72">
 
@@ -91,5 +91,19 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Requirements** The contact form requires the user to provide their full name, email address, and message.
 
-  + **Formspree form** Upon submission, the form data is sent to an external URL for processing. The form is set to accept character set UTF-8 and submits data to "https://formspree.io/f/mknayaby" using the POST method.
+  + **Formspree form** Upon submission, the form data is sent to an external URL for processing. The form is set to accept character set UTF-8 and submits data to **[FORMSPREE](https://formspree.io/f/mknayaby)** using the POST method.
+
+  ##TESTING
+
+  + I verified the cross-browser compatibility of the page by testing it in Chrome, Firefox, and Safari to ensure it functions correctly on different browsers.
+
+  + Using the toolbar in Chrome's developer tools, I ensured that the project is responsive, visually appealing, and fully functional across various standard screen sizes.
+
+  + I reviewed the text content of all pages to ensure readability, comprehension, and compliance with accessibility guidelines.
+
+  + The functionality of the contact form was tested, ensuring that all fields are required and preventing users from submitting blank entries.
+
+  + The contact form is configured to send data to **FORMSPREE** for proper handling of form submissions.
+
+  + To ensure a well-performing and user-friendly website, I have conducted thorough testing for links, navigatoins, page load times, image optimization and form validation.
 
