@@ -79,9 +79,17 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Appointment requirements:** It informs users about the appropriate dress and recommends arriving 10 minutes prior to the scheduled appointment for consultation and relaxation time.
 
-### Prices page
+### Prices Page
 
   + **Prices and Duration table:** A table is presented below the header, showing the different treatments, their corresponding prices, and durations. 
 
   + **Special discounts:** The page also includes a section dedicated to special discounts. The discount section features three cards and each includes an icon, a title, and a description of the discount offer. It provides an engaging way to encourage potential customers to take advantage of special offers.
+
+### Contacts Page
+
+  + **Background image and form** The contacts.html page includes a section with a background image and a contact form.
+
+  + **Requirements** The contact form requires the user to provide their full name, email address, and message.
+
+  + **Formspree form** Upon submission, the form data is sent to an external URL for processing. The form is set to accept character set UTF-8 and submits data to "https://formspree.io/f/mknayaby" using the POST method.
 
