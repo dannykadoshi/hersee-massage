@@ -167,3 +167,23 @@ I would also like to acknowledge that, during the development process, I made us
 
 Furthermore, I utilized a snippet of code provided by ***FORMSPREE*** to enable successful submission of the contact form to their platform.
 
+### Media
+
+I would like to give credit to the following images used in my project, all of which were collected from Pexels:
+
+* Introduction section image (Main Page): **[Photo by Andrea Piacquadio](https://www.pexels.com/photo/selective-focus-photo-of-woman-getting-a-massage-3764568/)**
+
+* About section image (Main Page): **[Photo by Yan Krukau](https://www.pexels.com/photo/a-smiling-client-having-a-massage-5793781/)**
+
+* About section image (About Page): **[Photo by Yan Krukau](https://www.pexels.com/photo/a-woman-holding-a-person-s-leg-5794014/)**
+
+* Treatments page images:
+    1. **[Photo by Yan Krukau](https://www.pexels.com/photo/a-person-having-a-foot-massage-5793899/)**
+    2. **[Photo by Bruno Bueno](https://www.pexels.com/photo/man-assisting-with-massage-on-a-foam-roller-5485462/)**
+    3. **[Photo by Anete Lusina](https://www.pexels.com/photo/crop-female-getting-back-massage-5240678/)**
+    4. **[Photo by Anna Tarazevich](https://www.pexels.com/photo/a-massage-therapist-massaging-a-client-s-back-6560304/)**
+    5. **[Photo by Lucas Mendes](https://www.pexels.com/photo/pregnant-woman-sitting-on-bathtub-3094435/)**
+
+* Contact page image: **[Photo by Andrea Piacquadio](https://www.pexels.com/photo/photo-of-woman-getting-a-back-massage-3760262/)**
+
+All images used are free to use.
