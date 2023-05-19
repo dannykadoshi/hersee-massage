@@ -1268,6 +1268,25 @@ main div p {
         font-size: small;
         order: 1;
     }
+
+    .opening-times ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .opening-times ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .opening-times ul li:before {
+        content: attr(data-day);
+        font-weight: bold;
+    }
+
+    .opening-times ul li span {
+        display: block;
+    }
 }
 
 /* Media rules for contact.html */
