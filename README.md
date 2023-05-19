@@ -12,7 +12,7 @@ Hersee Massage is dedicated to promoting the physical and mental well-being of o
 
 Experience the transformative power of massage therapy and let your worries melt away with Hersee Massage."
 
-![Screenshot_2023-05-19_at_15 54 13-removebg-preview](https://github.com/dannykadoshi/hersee-massage/assets/129149596/04befdf5-980f-4298-b3ac-a6c3af945108)
+<img width="1596" alt="Screenshot 2023-05-19 at 16 01 14" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/e7fd737a-66cc-4d93-bc95-b2fbbe921711">
 
 ## FEATURES
 
