@@ -120,7 +120,7 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + To ensure a well-performing and user-friendly website, I have conducted thorough testing for links, navigatoins, page load times, image optimization and form validation.
 
-<img width="907" alt="Screenshot 2023-05-17 at 09 31 40" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/c7558d71-ea11-4342-b4ae-4a262a4e7142">
+<img width="1106" alt="Screenshot 2023-05-19 at 13 37 32" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/08203596-c9ad-4c6e-8411-779961a076cb">
 
 ### Bugs
 
@@ -161,7 +161,7 @@ During the development process, I meticulously tested the website to ensure its 
 
 This deployment process allowed for seamless hosting and accessibility of the website using GitHub Pages.
 
-You can access the live website by following **[THIS LINK](ENTER LINK HERE)**
+You can access the live website by following **[HERSEE MASSAGE](https://dannykadoshi.github.io/hersee-massage/)**
 
 ## CREDITS
 
