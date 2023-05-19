@@ -1315,3 +1315,22 @@ main div p {
         width: 100%;
     }
 }
+
+/* Media rules for prices.html -  */
+@media screen and (max-width: 425px) {
+    .price-duration {
+        font-size: 15px;
+    }
+}
+
+/* Rules for mobile screen size at or bellow 320px width */
+/* Media rules for prices.html -  */
+@media screen and (max-width: 320px) {
+    .prices-table {
+        margin: 60px 1px auto;
+    }
+
+    .price-duration {
+        font-size: 8px;
+    }
+}
