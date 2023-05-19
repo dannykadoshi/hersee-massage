@@ -113,24 +113,25 @@ nav a:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     color: #fff;
     font-weight: 700;
-    height: 200px;
+    height: 300px;
     letter-spacing: 3px;
     margin: auto;
     padding: 30px 20px;
     text-align: center;
     text-transform: uppercase;
-    width: 400px;
+    width: 500px;
 }
 
 .intro-text h2 {
     font-family: 'Oswald', sans-serif;
+    font-size: 40px;
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 1rem;
 }
 
 .intro-text p {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     margin-top: 20px;
     letter-spacing: 1px;
@@ -991,6 +992,14 @@ main div p {
     .intro-text {
         height: 60%;
         width: 80%;
+    }
+
+    .intro-text p {
+        font-size: 20px;
+    }
+
+    .intro-text h2 {
+        font-size: 25px;
     }
 }
 
