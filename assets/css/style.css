@@ -80,7 +80,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    height: 600px;
+    height: 700px;
     justify-content: center;
     position: relative;
     width: 100%;
@@ -112,7 +112,6 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     color: #fff;
-    font-size: 20px;
     font-weight: 700;
     height: 200px;
     letter-spacing: 3px;
@@ -131,7 +130,7 @@ nav a:hover {
 }
 
 .intro-text p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
     letter-spacing: 1px;
@@ -986,8 +985,12 @@ main div p {
 /* Media rules for Intro section and image - index.html */
 @media (max-width: 900px) {
     .intro-section {
-        height: 400px;
+        height: 300px;
+    }
 
+    .intro-text {
+        height: 60%;
+        width: 80%;
     }
 }
 
