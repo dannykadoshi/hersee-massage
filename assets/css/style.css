@@ -795,6 +795,11 @@ main {
 /* Main text section within treatments.html */
 .right-treatment {
     max-width: 1200px;
+    padding-left: 20px;
+}
+
+.treatment-list h2 {
+    padding-left: 20px;
 }
 
 .appointment-requirement {
