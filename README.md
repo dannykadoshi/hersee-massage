@@ -12,6 +12,7 @@ Hersee Massage is dedicated to promoting the physical and mental well-being of o
 
 Experience the transformative power of massage therapy and let your worries melt away with Hersee Massage."
 
+![Screenshot_2023-05-19_at_15 54 13-removebg-preview](https://github.com/dannykadoshi/hersee-massage/assets/129149596/04befdf5-980f-4298-b3ac-a6c3af945108)
 
 ## FEATURES
 
@@ -163,7 +164,7 @@ This deployment process allowed for seamless hosting and accessibility of the we
 
 You can access the live website by following **[HERSEE MASSAGE](https://dannykadoshi.github.io/hersee-massage/)**
 
-## CREDITS
+## ACKNOWLEDGEMENT
 
 ### Content
 
@@ -181,6 +182,12 @@ Additionally, I gathered information about essential features for a massage ther
 I would also like to acknowledge that, during the development process, I made use of various online resources and conducted random Google searches to find solutions to specific coding challenges that I have encountered. 
 
 Furthermore, I utilized a snippet of code provided by ***FORMSPREE*** to enable successful submission of the contact form to their platform.
+
+**THANK YOU NOTES** I would like to express my gratitude to the websites mentioned in for providing design inspiration and references during the development process. 
+
+Their insights and designs have greatly contributed to the overall quality and aesthetics of the website. I would also like to thank Pexels for providing the high-quality images used throughout the website.
+
+## CREDITS
 
 ### Media
 
@@ -202,10 +209,6 @@ I would like to give credit to the following images used in my project, all of w
 * Contact page image: **[Photo by Andrea Piacquadio](https://www.pexels.com/photo/photo-of-woman-getting-a-back-massage-3760262/)**
 
 All images used are free to use.
-
-**Acknowledgments:** I would like to express my gratitude to the websites mentioned in the "Credits" section for providing design inspiration and references during the development process. 
-
-Their insights and designs have greatly contributed to the overall quality and aesthetics of the website. I would also like to thank Pexels for providing the high-quality images used throughout the website.
 
 ## FINAL CONSIDERATIONS
 
