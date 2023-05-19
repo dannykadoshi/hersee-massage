@@ -47,6 +47,8 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Address and Opening Times:** It includes the address of Hersee Massage, conveniently providing users with the physical location of the business. Additionally, the opening times for each day of the week are listed, allowing users to easily plan their visit or schedule an appointment accordingly.
 
+<img width="1187" alt="Screenshot 2023-05-19 at 13 23 22" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/d6d2c38e-b1d0-4405-8e52-9ddfcfd416c3">
+
 ### Main Page
   
   + **Eye-catching hero section:** The Main page features a visually appealing hero section that immediately grabs the attention of users. It includes high-quality image, a welcoming message, and a prominent call-to-action.
@@ -63,6 +65,9 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Responsive Design:** The main page is designed to be responsive, ensuring that it looks great and functions well on different devices and screen sizes. This feature allows users to have a seamless browsing experience, whether they are accessing the website from a desktop computer, tablet, or mobile phone.
 
+<img width="1181" alt="Screenshot 2023-05-19 at 13 24 16" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/24cd4d54-1463-43f7-ad65-6e903316fd54">
+<img width="1177" alt="Screenshot 2023-05-19 at 13 24 37" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/7a4b8951-a098-4786-80c4-b1fc1737ae29">
+
 ### About Page
 
   + **Introduction of Tara Hersee:** The about page provides an introduction to Tara Hersee, a highly qualified and experienced massage therapist with over 10 years of hands-on experience. It highlights her dedication to providing clients with the highest level of service and her professional yet warm approach.
@@ -70,6 +75,8 @@ Experience the transformative power of massage therapy and let your worries melt
   + **Range of Expertise:** The page showcases Tara's expertise in various massage techniques, including, deep tissue massage, sports massage, pregnancy massage, and lymphatic drainage. This demonstrates her diverse skill set and the ability to cater to different client needs.
 
   + **Qualifications:** The page lists Tara's qualifications. This highlights her commitment to continuous learning and staying up-to-date with the latest industry practices.
+
+<img width="1180" alt="Screenshot 2023-05-19 at 13 25 26" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/773aa16f-d0ba-4b97-9422-a376cb5b8814">
 
 ### Treatments Page
 
@@ -79,11 +86,15 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Appointment requirements:** It informs users about the appropriate dress and recommends arriving 10 minutes prior to the scheduled appointment for consultation and relaxation time.
 
+<img width="1280" alt="Screenshot 2023-05-19 at 13 26 29" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/0ab5a523-229a-4b7f-88da-330acfcb262c">
+
 ### Prices Page
 
   + **Prices and Duration table:** A table is presented below the header, showing the different treatments, their corresponding prices, and durations. 
 
   + **Special discounts:** The page also includes a section dedicated to special discounts. The discount section features three cards and each includes an icon, a title, and a description of the discount offer. It provides an engaging way to encourage potential customers to take advantage of special offers.
+
+<img width="1080" alt="Screenshot 2023-05-19 at 13 27 17" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/00d34814-90d7-4a97-9eb9-06078ace5dab">
 
 ### Contacts Page
 
@@ -92,6 +103,8 @@ Experience the transformative power of massage therapy and let your worries melt
   + **Requirements** The contact form requires the user to provide their full name, email address, and message.
 
   + **Formspree form** Upon submission, the form data is sent to an external URL for processing. The form is set to accept character set UTF-8 and submits data to **[FORMSPREE](https://formspree.io/f/mknayaby)** using the POST method.
+
+<img width="1073" alt="Screenshot 2023-05-19 at 13 28 13" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/c8e1f8e1-cb01-44c9-a59a-5de9840c311c">
 
 ## TESTING
 
@@ -106,6 +119,8 @@ Experience the transformative power of massage therapy and let your worries melt
   + The contact form is configured to send data to **FORMSPREE** for proper handling of form submissions.
 
   + To ensure a well-performing and user-friendly website, I have conducted thorough testing for links, navigatoins, page load times, image optimization and form validation.
+
+<img width="907" alt="Screenshot 2023-05-17 at 09 31 40" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/c7558d71-ea11-4342-b4ae-4a262a4e7142">
 
 ### Bugs
 
