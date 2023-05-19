@@ -1223,7 +1223,8 @@ main div p {
 
     .intro-text {
         height: 70%;
-        width: 50%;
+        padding-top: 8px;
+        width: 60%;
     }
 
     .intro-text h2 {
@@ -1237,7 +1238,7 @@ main div p {
     .intro-text .btn {
         font-size: 12px;
         padding: 10px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
 
