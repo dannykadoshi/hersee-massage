@@ -999,7 +999,7 @@ main div p {
     }
 
     .intro-text h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -1195,7 +1195,7 @@ main div p {
     }
 
     #logo {
-        font-size: 35px;
+        font-size: 30px;
         margin-bottom: 5px;
         margin-top: 5px;
     }
@@ -1211,6 +1211,17 @@ main div p {
         margin: 0 8px;
         margin-top: -20px;
         text-align: center;
+    }
+}
+
+/* Media rules for header - all pages */
+@media (max-width: 320px) {
+    #nav {
+        flex-direction: column;
+    }
+
+    #nav li {
+        line-height: 5;
     }
 }
 
@@ -1286,6 +1297,10 @@ main div p {
 
     .opening-times ul li span {
         display: block;
+    }
+
+    .footer-nav-menu ul li {
+        font-size: 70%;
     }
 }
 
