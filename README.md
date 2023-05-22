@@ -130,7 +130,9 @@ Front of Flipping Cards not working on Safari (iMac 27" - Big Screen).
   - **Description:** After deploying the project, I observed that the front side of the flipping cards on the treatments.html page did not function correctly when accessing the website on Safari using an iMac with a 27" big screen. However, the flipping cards worked perfectly fine on other devices and browsers, including Safari on smaller screens and the same iMac.
   - **Investigation:** After conducting research, I discovered that the issue could be related to the *backface-visibility* property, which sometimes fails to work on large screen iMacs.
   - **Solution:** Applying the following CSS code at lines 878, 879, and 880 resolved the problem:
+  
 <img width="357" alt="Screenshot 2023-05-22 at 15 14 43" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/b85010c5-90c9-4d67-ade5-2c54c9161e23">
+
   - **Reference:** I discovered a viable solution while conducting research on a forum where a fellow user encountered a similar issue. Fortunately, another forum member provided a helpful code snippet that effectively resolved the problem. You can find the forum solution by **[CLICKING HERE](https://stackoverflow.com/questions/42744573/backface-visibility-not-working-in-safari)**
   - **Status:** The flipping card issue has been resolved using the provided solution, ensuring compatibility with Safari on iMac 27" screens. The flipping cards now function properly on all supported devices and browsers.
 
