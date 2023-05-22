@@ -127,6 +127,8 @@ Experience the transformative power of massage therapy and let your worries melt
 
 Front of Flipping Cards not working on Safari (iMac 27" - Big Screen).
 
+<img width="1297" alt="Screenshot 2023-05-19 at 13 59 07" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/a3046369-ac38-473c-a4e2-26e43ec0aeb5">
+
   - **Description:** After deploying the project, I observed that the front side of the flipping cards on the treatments.html page did not function correctly when accessing the website on Safari using an iMac with a 27" big screen. However, the flipping cards worked perfectly fine on other devices and browsers, including Safari on smaller screens and the same iMac.
   - **Investigation:** After conducting research, I discovered that the issue could be related to the *backface-visibility* property, which sometimes fails to work on large screen iMacs.
   - **Solution:** Applying the following CSS code at lines 878, 879, and 880 resolved the problem:
