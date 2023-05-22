@@ -52,7 +52,7 @@ Experience the transformative power of massage therapy and let your worries melt
 
 ### Main Page
   
-  + **Eye-catching hero section:** The Main page features a visually appealing hero section that immediately grabs the attention of users. It includes high-quality image, a welcoming message, and a prominent call-to-action.
+  + **Eye-catching intro section:** The Main page features a visually appealing intro section that immediately grabs the attention of users. It includes high-quality image, a welcoming message, and a prominent call-to-action.
 
   + **Introduction to Hersee Massage:** The page provides a concise and engaging introduction to Hersee Massage. This section highlights the key benefits and unique selling points of our massage services, enticing users to explore further.
 
