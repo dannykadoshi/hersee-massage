@@ -1,4 +1,4 @@
-# Hersee Massage
+# HERSEE MASSAGE
 
 Welcome to Hersee Massage, your destination for ultimate relaxation and well-being in Co. Wexford, Ireland. 
 
@@ -125,7 +125,14 @@ Experience the transformative power of massage therapy and let your worries melt
 
 ### Bugs
 
-  + In the process of developing this project, I have diligently tested the website and am pleased to report that no significant bugs or issues have been detected. I have strived to deliver a bug-free and user-friendly website experience.
+Front of Flipping Cards not working on Safari (iMac 27" - Big Screen).
+
+  - **Description:** After deploying the project, I observed that the front side of the flipping cards on the treatments.html page did not function correctly when accessing the website on Safari using an iMac with a 27" big screen. However, the flipping cards worked perfectly fine on other devices and browsers, including Safari on smaller screens and the same iMac.
+  - **Investigation:** After conducting research, I discovered that the issue could be related to the *backface-visibility* property, which sometimes fails to work on large screen iMacs.
+  - **Solution:** Applying the following CSS code at lines 878, 879, and 880 resolved the problem:
+<img width="357" alt="Screenshot 2023-05-22 at 15 14 43" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/b85010c5-90c9-4d67-ade5-2c54c9161e23">
+  - **Reference:** I discovered a viable solution while conducting research on a forum where a fellow user encountered a similar issue. Fortunately, another forum member provided a helpful code snippet that effectively resolved the problem. You can find the forum solution by **[CLICKING HERE](https://stackoverflow.com/questions/42744573/backface-visibility-not-working-in-safari)**
+  - **Status:** The flipping card issue has been resolved using the provided solution, ensuring compatibility with Safari on iMac 27" screens. The flipping cards now function properly on all supported devices and browsers.
 
 ### Validator Testing
 
@@ -133,9 +140,15 @@ During the development process, I meticulously tested the website to ensure its 
 
    **HTML**
   - I am pleased to state that the project successfully passed through the official W3C validator without encountering any errors.
+  - To check test result **[CLICK HERE](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdannykadoshi.github.io%2Fhersee-massage%2F)**
+
+<img width="1126" alt="Screenshot 2023-05-22 at 14 59 35" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/199a8bf1-9b24-460f-b362-502d6cd02802">
 
    **CSS**
   - Additionally, I conducted a evaluation using the official Jigsaw validator, and once again, no errors were idenfied, affirming the website's adherence to best practices and standards.
+  - To check test result **[CLICK HERE](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdannykadoshi.github.io%2Fhersee-massage%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)**
+
+<img width="1093" alt="Screenshot 2023-05-22 at 15 02 16" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/707adf64-5471-400f-bd2c-93b8ec9e8e28">
 
    **Accessibility**
   - To ensure the accessibility and performance of each page, I employed the Chrome DevTools Lighthouse feature. This powerful tool allowed me to evaluate the website's accessibility on both desktop and mobile platforms comprehensively. 
@@ -207,6 +220,8 @@ I would like to give credit to the following images used in my project, all of w
     5. **[Photo by Lucas Mendes](https://www.pexels.com/photo/pregnant-woman-sitting-on-bathtub-3094435/)**
 
 * Contact page image: **[Photo by Andrea Piacquadio](https://www.pexels.com/photo/photo-of-woman-getting-a-back-massage-3760262/)**
+
+* Flipping card bug solution: **[Stackoverflow](https://stackoverflow.com/questions/42744573/backface-visibility-not-working-in-safari)** I would like to express my gratitude to the forum community where I found invaluable assistance and guidance in resolving the issue. Their collective knowledge and willingness to share insights played a crucial role in addressing the problem effectively.
 
 All images used are free to use.
 
