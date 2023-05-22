@@ -87,7 +87,7 @@ Experience the transformative power of massage therapy and let your worries melt
 
   + **Appointment requirements:** It informs users about the appropriate dress and recommends arriving 10 minutes prior to the scheduled appointment for consultation and relaxation time.
 
-<img width="1280" alt="Screenshot 2023-05-19 at 13 26 29" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/0ab5a523-229a-4b7f-88da-330acfcb262c">
+<img width="1482" alt="Screenshot 2023-05-22 at 16 06 14" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/13605edc-39e9-43a0-a6cc-8c168bbc8375">
 
 ### Prices Page
 
