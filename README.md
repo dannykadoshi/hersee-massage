@@ -123,7 +123,7 @@ Experience the transformative power of massage therapy and let your worries melt
 
 <img width="1106" alt="Screenshot 2023-05-19 at 13 37 32" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/08203596-c9ad-4c6e-8411-779961a076cb">
 
-### Bugs
+## BUGS
 
 Front of Flipping Cards not working on Safari (iMac 27" - Big Screen).
 
@@ -138,30 +138,30 @@ Front of Flipping Cards not working on Safari (iMac 27" - Big Screen).
   - **Reference:** I discovered a viable solution while conducting research on a forum where a fellow user encountered a similar issue. Fortunately, another forum member provided a helpful code snippet that effectively resolved the problem. You can find the forum solution by **[CLICKING HERE](https://stackoverflow.com/questions/42744573/backface-visibility-not-working-in-safari)**
   - **Status:** The flipping card issue has been resolved using the provided solution, ensuring compatibility with Safari on iMac 27" screens. The flipping cards now function properly on all supported devices and browsers.
 
-### Validator Testing
+### Unfixed Bugs
+
+  + Based on my extensive testing and thorough review of the website, I can confidently state that to the best of my knowledge, there are no unfixed bugs present.
+
+## VALIDATOR TESTING
 
 During the development process, I meticulously tested the website to ensure its high quality and adherence to web standards.
 
-   **HTML**
+### HTML
   - I am pleased to state that the project successfully passed through the official W3C validator without encountering any errors.
   - To check test result **[CLICK HERE](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdannykadoshi.github.io%2Fhersee-massage%2F)**
 
 <img width="1126" alt="Screenshot 2023-05-22 at 14 59 35" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/199a8bf1-9b24-460f-b362-502d6cd02802">
 
-   **CSS**
+### CSS
   - Additionally, I conducted a evaluation using the official Jigsaw validator, and once again, no errors were idenfied, affirming the website's adherence to best practices and standards.
   - To check test result **[CLICK HERE](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdannykadoshi.github.io%2Fhersee-massage%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)**
 
 <img width="1093" alt="Screenshot 2023-05-22 at 15 02 16" src="https://github.com/dannykadoshi/hersee-massage/assets/129149596/707adf64-5471-400f-bd2c-93b8ec9e8e28">
 
-   **Accessibility**
+### Accessibility
   - To ensure the accessibility and performance of each page, I employed the Chrome DevTools Lighthouse feature. This powerful tool allowed me to evaluate the website's accessibility on both desktop and mobile platforms comprehensively. 
   - By utilizing the Chrome DevTools Lighthouse, I have taken proactive measures to ensure that the website meets accessibility standards, providing an inclusive experience for all users across various devices.
   - I ran the accessibility tests for every page, meticulously examining elements such as text readability, color contrast, keyboard navigation, and proper labeling of interactive elements. The results of these tests are presented below.
-
-### Unfixed Bugs
-
-  + Based on my extensive testing and thorough review of the website, I can confidently state that to the best of my knowledge, there are no unfixed bugs present.
 
 ## DEPLOYMENT
 
