@@ -165,17 +165,17 @@ During the development process, I meticulously tested the website to ensure its 
 
 ## DEPLOYMENT
 
-+ The website was created using CodeAnywhere, and subsequently, the deployment process involved using GitHub Pages. The deployment steps are outlined below:
++ The site was deployed using GitHub Pages. The deployment steps are outlined below:
 
-    1. First, the website was developed and coded within the CodeAnywhere environment.
+    1. In the GitHub repository for Hersee-Massage, navigate to the settings tab.
+   
+    2. In the setting menu, which can be found in the upper left corner, choose the *Pages* option.
 
-    2. Once the development phase was complete, the project files were uploaded to a GitHub repository.
+    3. In the **Build and deployment** section, select the source option *deploy from a branch*.
 
-    3. To enable deployment on GitHub Pages, the repository's settings were configured to select the appropriate branch for deployment.
-
-    4. The website was then deployed by activating the GitHub Pages feature, which triggered the automatic build and publication process.
-
-    5. Upon successful deployment, the website became accessible to users through its designated GitHub Pages URL.
+    4. Under the branch selection, choose **main** and **root** as the branch to deploy from.
+    
+    5. Lastly, save the changes by clicking **save**, after a few minutes the page provided the link to the finished website.
 
 This deployment process allowed for seamless hosting and accessibility of the website using GitHub Pages.
 
